@@ -1,0 +1,24 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/airspy_gpio
+-rwxr-xr-x	root/root	usr/bin/airspy_gpiodir
+-rwxr-xr-x	root/root	usr/bin/airspy_info
+-rwxr-xr-x	root/root	usr/bin/airspy_lib_version
+-rwxr-xr-x	root/root	usr/bin/airspy_r820t
+-rwxr-xr-x	root/root	usr/bin/airspy_rx
+-rwxr-xr-x	root/root	usr/bin/airspy_si5351c
+-rwxr-xr-x	root/root	usr/bin/airspy_spiflash
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libairspy/
+-rw-r--r--	root/root	usr/include/libairspy/airspy.h
+-rw-r--r--	root/root	usr/include/libairspy/airspy_commands.h
+-rw-r--r--	root/root	usr/include/libairspy/filters.h
+-rw-r--r--	root/root	usr/include/libairspy/iqconverter_float.h
+-rw-r--r--	root/root	usr/include/libairspy/iqconverter_int16.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libairspy.a
+lrwxrwxrwx	root/root	usr/lib/libairspy.so -> libairspy.so.0
+lrwxrwxrwx	root/root	usr/lib/libairspy.so.0 -> libairspy.so.1.0.6
+-rwxr-xr-x	root/root	usr/lib/libairspy.so.1.0.6
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libairspy.pc

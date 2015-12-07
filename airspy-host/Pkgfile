@@ -1,0 +1,19 @@
+# Description: host software for AirSpy SDR communications receiver
+# URL: http://airspy.com/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: cmake 
+
+name=airspy-host
+version=1.0.6
+release=1
+source=(https://github.com/airspy/host/archive/v$version.tar.gz)
+
+build() {
+	cd host-$version
+
+	mkdir build
+	cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}

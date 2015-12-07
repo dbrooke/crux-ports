@@ -1,0 +1,19 @@
+# Description: osmocom Gnu Radio Blocks
+# URL: http://sdr.osmocom.org/trac/wiki/GrOsmoSDR
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: gnuradio
+
+name=gr-osmosdr
+version=0.1.4
+release=1
+source=(http://cgit.osmocom.org/gr-osmosdr/snapshot/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	mkdir build
+	cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}

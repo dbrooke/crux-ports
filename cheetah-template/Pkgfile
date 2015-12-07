@@ -1,0 +1,16 @@
+# Description: template engine and code generation tool
+# URL: http://cheetahtemplate.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: python 
+
+name=cheetah-template
+version=2.4.4
+release=1
+source=(https://pypi.python.org/packages/source/C/Cheetah/Cheetah-$version.tar.gz)
+
+build() {
+	cd Cheetah-$version
+
+	/usr/bin/python setup.py build
+	/usr/bin/python setup.py install --root=$PKG
+}
