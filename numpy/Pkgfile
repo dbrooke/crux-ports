@@ -1,0 +1,16 @@
+# Description: discrete fourier transform, basic linear algebra and random number generation
+# URL: http://www.numpy.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Packager: Daryl Fonseca-Holt, wyatt at prairieturtle dot ca
+# Depends on: python 
+
+name=numpy
+version=1.10.1
+release=1
+source=(https://pypi.python.org/packages/source/n/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	/usr/bin/python setup.py install --root=$PKG
+	find $PKG -name '*egg-info' | xargs rm -r
+}
