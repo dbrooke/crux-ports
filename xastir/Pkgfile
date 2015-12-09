@@ -1,0 +1,19 @@
+# Description: X Amateur Station Tracking and Information Reporting
+# URL: http://xastir.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Packager: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: graphicsmagick lesstif
+
+name=xastir
+version=2.0.6
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name-stable/$name-$version/$name-$version.tar.gz)
+
+build()
+{
+  cd $name-$version 
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/doc/
+}
