@@ -1,0 +1,21 @@
+# Description: open source electronics design automation suite
+# URL: http://kicad-pcb.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Packager: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: cmake wxgtk glew boost
+
+name=kicad
+version=4.0.0
+release=1
+source=(https://launchpad.net/$name/4.0/$version/+download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	mkdir build
+	cd build
+	cmake -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=$version -DKICAD_SKIP_BOOST=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/doc/
+}
