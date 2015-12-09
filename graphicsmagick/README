@@ -1,0 +1,17 @@
+NOTES
+
+GraphicsMagick has a number of optional depencies that enable wider format
+support. Some examples of this:
+
+ - For RAW support, dcraw is required
+ - For PDF support, ghostscript is required
+ - For GPLT support, gnuplot and ghostscript are required
+ - For TrueType annotating, freetype is required
+ - To perform ICC CMS color management, lcms is required
+ - For PNG, MNG, and JNG support, libpng is required
+ - To import an image from a scanner, sane is required
+ - For TIFF support, libtiff is required
+ - For WMF support, libwmf is required
+ - For some functions, an X server is required
+ - For SVG support and network support, libxml2 is required
+ - And more!

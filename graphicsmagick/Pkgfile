@@ -1,0 +1,21 @@
+# Description: GraphicsMagick Image Processing System
+# URL: http://www.graphicsmagick.org
+# Packager: Ryan Mullen, rmmullen at gmail dot com
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: zlib bzip2
+
+name=graphicsmagick
+version=1.3.21
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/GraphicsMagick-$version.tar.xz)
+
+build() {
+	cd GraphicsMagick-$version
+	./configure --prefix=/usr \
+		    --mandir=/usr/man \
+		--disable-static --enable-shared
+
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share
+}
