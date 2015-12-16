@@ -6,16 +6,15 @@
 
 name=graphicsmagick
 version=1.3.23
-release=1
+release=2
 source=(http://downloads.sourceforge.net/project/$name/$name/$version/GraphicsMagick-$version.tar.xz)
 
 build() {
 	cd GraphicsMagick-$version
 	./configure --prefix=/usr \
-		    --mandir=/usr/man \
 		--disable-static --enable-shared
 
 	make
 	make DESTDIR=$PKG install
-	rm -r $PKG/usr/share
+	rm -r $PKG/usr/share/doc $PKG/usr/share/GraphicsMagick-$version
 }
