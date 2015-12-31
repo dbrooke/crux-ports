@@ -1,0 +1,19 @@
+# Description: receive and transmit SSTV and HAMDRM
+# URL: http://users.telenet.be/on4qz/qsstv
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: hamlib jasper qt4 fftw
+
+name=qsstv
+version=8.2.12
+release=1
+source=(http://users.telenet.be/on4qz/${name}/downloads/${name}_${version}.tar.gz)
+
+build() {
+	cd ${name}_${version}
+
+	mkdir build
+	cd build
+	qmake PREFIX=/usr ..
+	make
+	make INSTALL_ROOT=$PKG install
+}
