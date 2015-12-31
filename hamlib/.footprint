@@ -1,0 +1,44 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/rigctl
+-rwxr-xr-x	root/root	usr/bin/rigctld
+-rwxr-xr-x	root/root	usr/bin/rigmem
+-rwxr-xr-x	root/root	usr/bin/rigsmtr
+-rwxr-xr-x	root/root	usr/bin/rigswr
+-rwxr-xr-x	root/root	usr/bin/rotctl
+-rwxr-xr-x	root/root	usr/bin/rotctld
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/hamlib/
+-rw-r--r--	root/root	usr/include/hamlib/rig.h
+-rw-r--r--	root/root	usr/include/hamlib/rig_dll.h
+-rw-r--r--	root/root	usr/include/hamlib/rigclass.h
+-rw-r--r--	root/root	usr/include/hamlib/riglist.h
+-rw-r--r--	root/root	usr/include/hamlib/rotator.h
+-rw-r--r--	root/root	usr/include/hamlib/rotclass.h
+-rw-r--r--	root/root	usr/include/hamlib/rotlist.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libhamlib++.a
+-rwxr-xr-x	root/root	usr/lib/libhamlib++.la
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.2.1.0
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.2 -> libhamlib++.so.2.1.0
+-rwxr-xr-x	root/root	usr/lib/libhamlib++.so.2.1.0
+-rw-r--r--	root/root	usr/lib/libhamlib.a
+-rwxr-xr-x	root/root	usr/lib/libhamlib.la
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.2.1.0
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so.2 -> libhamlib.so.2.1.0
+-rwxr-xr-x	root/root	usr/lib/libhamlib.so.2.1.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/hamlib.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/aclocal/
+-rw-r--r--	root/root	usr/share/aclocal/hamlib.m4
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/rigctl.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rigmem.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rigsmtr.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rigswr.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rotctl.1.gz
+drwxr-xr-x	root/root	usr/share/man/man8/
+-rw-r--r--	root/root	usr/share/man/man8/rigctld.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/rotctld.8.gz
