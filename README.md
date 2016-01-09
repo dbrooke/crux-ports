@@ -2,4 +2,6 @@
 
 My ports for [CRUX Linux](https://crux.nu/)
 
-The repository is at http://crux-ports.dbrooke.me.uk/
+[CRUX ports database](https://crux.nu/portdb/?a=repo&q=dbrooke)
+
+[httpup repository](http://crux-ports.dbrooke.me.uk/)
