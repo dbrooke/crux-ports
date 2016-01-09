@@ -4,12 +4,12 @@
 # Depends on: gr-osmosdr qt4
 
 name=gqrx
-version=2.3.2
+version=2.5
 release=1
-source=(http://downloads.sourceforge.net/project/$name/$version/$name-$version.tar.xz)
+source=(https://github.com/csete/${name}/releases/download/v${version}/${name}-sdr-src-${version}.tar.xz)
 
 build() {
-	cd $name-$version
+	cd $name-sdr-$version
 
 	mkdir build
 	cd build
