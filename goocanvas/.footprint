@@ -1,0 +1,29 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/goocanvas-1.0/
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvas.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasellipse.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasenumtypes.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasgrid.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasgroup.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasimage.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasitem.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasitemmodel.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasitemsimple.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasmarshal.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvaspath.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvaspolyline.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasrect.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasstyle.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvastable.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvastext.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvasutils.h
+-rw-r--r--	root/root	usr/include/goocanvas-1.0/goocanvaswidget.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libgoocanvas.a
+-rwxr-xr-x	root/root	usr/lib/libgoocanvas.la
+lrwxrwxrwx	root/root	usr/lib/libgoocanvas.so -> libgoocanvas.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/libgoocanvas.so.3 -> libgoocanvas.so.3.4.0
+-rwxr-xr-x	root/root	usr/lib/libgoocanvas.so.3.4.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/goocanvas.pc
