@@ -33,6 +33,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gr_plot_short
 -rwxr-xr-x	root/root	usr/bin/gr_read_file_metadata
 -rwxr-xr-x	root/root	usr/bin/grcc
+-rwxr-xr-x	root/root	usr/bin/polar_channel_construction
 -rwxr-xr-x	root/root	usr/bin/usrp_flex
 -rwxr-xr-x	root/root	usr/bin/usrp_flex_all
 -rwxr-xr-x	root/root	usr/bin/usrp_flex_band
@@ -77,6 +78,9 @@ drwxr-xr-x	root/root	usr/include/gnuradio/analog/
 -rw-r--r--	root/root	usr/include/gnuradio/analog/pwr_squelch_ff.h
 -rw-r--r--	root/root	usr/include/gnuradio/analog/quadrature_demod_cf.h
 -rw-r--r--	root/root	usr/include/gnuradio/analog/rail_ff.h
+-rw-r--r--	root/root	usr/include/gnuradio/analog/random_uniform_source_b.h
+-rw-r--r--	root/root	usr/include/gnuradio/analog/random_uniform_source_i.h
+-rw-r--r--	root/root	usr/include/gnuradio/analog/random_uniform_source_s.h
 -rw-r--r--	root/root	usr/include/gnuradio/analog/sig_source_c.h
 -rw-r--r--	root/root	usr/include/gnuradio/analog/sig_source_f.h
 -rw-r--r--	root/root	usr/include/gnuradio/analog/sig_source_i.h
@@ -215,6 +219,7 @@ drwxr-xr-x	root/root	usr/include/gnuradio/blocks/
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/complex_to_interleaved_short.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/complex_to_mag.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/complex_to_mag_squared.h
+-rw-r--r--	root/root	usr/include/gnuradio/blocks/complex_to_magphase.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/complex_to_real.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/conjugate_cc.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/control_loop.h
@@ -260,6 +265,7 @@ drwxr-xr-x	root/root	usr/include/gnuradio/blocks/
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/lfsr_32k.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/lfsr_32k_source_s.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/log2_const.h
+-rw-r--r--	root/root	usr/include/gnuradio/blocks/magphase_to_complex.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/max_ff.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/max_ii.h
 -rw-r--r--	root/root	usr/include/gnuradio/blocks/max_ss.h
@@ -536,15 +542,23 @@ drwxr-xr-x	root/root	usr/include/gnuradio/dtv/
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt2_p1insertion_cc.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt2_paprtr_cc.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt2_pilotgenerator_cc.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_bit_inner_deinterleaver.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_bit_inner_interleaver.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_config.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_convolutional_deinterleaver.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_convolutional_interleaver.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_demap.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_demod_reference_signals.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_energy_descramble.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_energy_dispersal.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_inner_coder.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_map.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_ofdm_sym_acquisition.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_reed_solomon_dec.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_reed_solomon_enc.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_reference_signals.h
 -rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_symbol_inner_interleaver.h
+-rw-r--r--	root/root	usr/include/gnuradio/dtv/dvbt_viterbi_decoder.h
 -rw-r--r--	root/root	usr/include/gnuradio/endianness.h
 -rw-r--r--	root/root	usr/include/gnuradio/expj.h
 drwxr-xr-x	root/root	usr/include/gnuradio/fcd/
@@ -569,6 +583,15 @@ drwxr-xr-x	root/root	usr/include/gnuradio/fec/
 -rw-r--r--	root/root	usr/include/gnuradio/fec/encoder.h
 -rw-r--r--	root/root	usr/include/gnuradio/fec/generic_decoder.h
 -rw-r--r--	root/root	usr/include/gnuradio/fec/generic_encoder.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/ldpc_decoder.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/ldpc_encoder.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_common.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_decoder_common.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_decoder_sc.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_decoder_sc_list.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_decoder_sc_systematic.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_encoder.h
+-rw-r--r--	root/root	usr/include/gnuradio/fec/polar_encoder_systematic.h
 -rw-r--r--	root/root	usr/include/gnuradio/fec/puncture_bb.h
 -rw-r--r--	root/root	usr/include/gnuradio/fec/puncture_ff.h
 -rw-r--r--	root/root	usr/include/gnuradio/fec/repetition_decoder.h
@@ -916,6 +939,8 @@ drwxr-xr-x	root/root	usr/include/volk/asm/orc/
 -rw-r--r--	root/root	usr/include/volk/volk_16ic_s32f_magnitude_32f.h
 -rw-r--r--	root/root	usr/include/volk/volk_16u_byteswap.h
 -rw-r--r--	root/root	usr/include/volk/volk_16u_byteswappuppet_16u.h
+-rw-r--r--	root/root	usr/include/volk/volk_32f_8u_polarbutterfly_32f.h
+-rw-r--r--	root/root	usr/include/volk/volk_32f_8u_polarbutterflypuppet_32f.h
 -rw-r--r--	root/root	usr/include/volk/volk_32f_accumulator_s32f.h
 -rw-r--r--	root/root	usr/include/volk/volk_32f_acos_32f.h
 -rw-r--r--	root/root	usr/include/volk/volk_32f_asin_32f.h
@@ -1006,13 +1031,18 @@ drwxr-xr-x	root/root	usr/include/volk/asm/orc/
 -rw-r--r--	root/root	usr/include/volk/volk_8ic_x2_multiply_conjugate_16ic.h
 -rw-r--r--	root/root	usr/include/volk/volk_8ic_x2_s32f_multiply_conjugate_32fc.h
 -rw-r--r--	root/root	usr/include/volk/volk_8u_conv_k7_r2puppet_8u.h
+-rw-r--r--	root/root	usr/include/volk/volk_8u_x2_encodeframepolar_8u.h
+-rw-r--r--	root/root	usr/include/volk/volk_8u_x3_encodepolar_8u_x2.h
+-rw-r--r--	root/root	usr/include/volk/volk_8u_x3_encodepolarpuppet_8u.h
 -rw-r--r--	root/root	usr/include/volk/volk_8u_x4_conv_k7_r2_8u.h
+-rw-r--r--	root/root	usr/include/volk/volk_avx_intrinsics.h
 -rw-r--r--	root/root	usr/include/volk/volk_common.h
 -rw-r--r--	root/root	usr/include/volk/volk_complex.h
 -rw-r--r--	root/root	usr/include/volk/volk_config_fixed.h
 -rw-r--r--	root/root	usr/include/volk/volk_cpu.h
 -rw-r--r--	root/root	usr/include/volk/volk_malloc.h
 -rw-r--r--	root/root	usr/include/volk/volk_prefs.h
+-rw-r--r--	root/root	usr/include/volk/volk_sse3_intrinsics.h
 -rw-r--r--	root/root	usr/include/volk/volk_typedefs.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
@@ -1053,76 +1083,76 @@ drwxr-xr-x	root/root	usr/lib/cmake/gnuradio/
 drwxr-xr-x	root/root	usr/lib/cmake/volk/
 -rw-r--r--	root/root	usr/lib/cmake/volk/VolkConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/volk/VolkConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-analog-3.7.8.1.so -> libgnuradio-analog-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-analog-3.7.8.1.so.0 -> libgnuradio-analog-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-analog-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-analog.so -> libgnuradio-analog-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-atsc-3.7.8.1.so -> libgnuradio-atsc-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-atsc-3.7.8.1.so.0 -> libgnuradio-atsc-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-atsc-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-atsc.so -> libgnuradio-atsc-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-audio-3.7.8.1.so -> libgnuradio-audio-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-audio-3.7.8.1.so.0 -> libgnuradio-audio-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-audio-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-audio.so -> libgnuradio-audio-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-blocks-3.7.8.1.so -> libgnuradio-blocks-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-blocks-3.7.8.1.so.0 -> libgnuradio-blocks-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-blocks-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-blocks.so -> libgnuradio-blocks-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-channels-3.7.8.1.so -> libgnuradio-channels-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-channels-3.7.8.1.so.0 -> libgnuradio-channels-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-channels-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-channels.so -> libgnuradio-channels-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-digital-3.7.8.1.so -> libgnuradio-digital-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-digital-3.7.8.1.so.0 -> libgnuradio-digital-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-digital-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-digital.so -> libgnuradio-digital-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-dtv-3.7.8.1.so -> libgnuradio-dtv-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-dtv-3.7.8.1.so.0 -> libgnuradio-dtv-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-dtv-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-dtv.so -> libgnuradio-dtv-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fcd-3.7.8.1.so -> libgnuradio-fcd-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fcd-3.7.8.1.so.0 -> libgnuradio-fcd-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-fcd-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fcd.so -> libgnuradio-fcd-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fec-3.7.8.1.so -> libgnuradio-fec-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fec-3.7.8.1.so.0 -> libgnuradio-fec-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-fec-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fec.so -> libgnuradio-fec-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fft-3.7.8.1.so -> libgnuradio-fft-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fft-3.7.8.1.so.0 -> libgnuradio-fft-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-fft-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-fft.so -> libgnuradio-fft-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-filter-3.7.8.1.so -> libgnuradio-filter-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-filter-3.7.8.1.so.0 -> libgnuradio-filter-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-filter-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-filter.so -> libgnuradio-filter-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-noaa-3.7.8.1.so -> libgnuradio-noaa-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-noaa-3.7.8.1.so.0 -> libgnuradio-noaa-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-noaa-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-noaa.so -> libgnuradio-noaa-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-pager-3.7.8.1.so -> libgnuradio-pager-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-pager-3.7.8.1.so.0 -> libgnuradio-pager-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-pager-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-pager.so -> libgnuradio-pager-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-pmt-3.7.8.1.so -> libgnuradio-pmt-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-pmt-3.7.8.1.so.0 -> libgnuradio-pmt-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-pmt-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-pmt.so -> libgnuradio-pmt-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-runtime-3.7.8.1.so -> libgnuradio-runtime-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-runtime-3.7.8.1.so.0 -> libgnuradio-runtime-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-runtime-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-runtime.so -> libgnuradio-runtime-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-trellis-3.7.8.1.so -> libgnuradio-trellis-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-trellis-3.7.8.1.so.0 -> libgnuradio-trellis-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-trellis-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-trellis.so -> libgnuradio-trellis-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-vocoder-3.7.8.1.so -> libgnuradio-vocoder-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-vocoder-3.7.8.1.so.0 -> libgnuradio-vocoder-3.7.8.1.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnuradio-vocoder-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnuradio-vocoder.so -> libgnuradio-vocoder-3.7.8.1.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libvolk.so -> libvolk.so.1.1.1
--rwxr-xr-x	root/root	usr/lib/libvolk.so.1.1.1
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-analog-3.7.10git.so -> libgnuradio-analog-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-analog-3.7.10git.so.0 -> libgnuradio-analog-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-analog-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-analog.so -> libgnuradio-analog-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-atsc-3.7.10git.so -> libgnuradio-atsc-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-atsc-3.7.10git.so.0 -> libgnuradio-atsc-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-atsc-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-atsc.so -> libgnuradio-atsc-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-audio-3.7.10git.so -> libgnuradio-audio-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-audio-3.7.10git.so.0 -> libgnuradio-audio-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-audio-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-audio.so -> libgnuradio-audio-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-blocks-3.7.10git.so -> libgnuradio-blocks-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-blocks-3.7.10git.so.0 -> libgnuradio-blocks-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-blocks-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-blocks.so -> libgnuradio-blocks-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-channels-3.7.10git.so -> libgnuradio-channels-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-channels-3.7.10git.so.0 -> libgnuradio-channels-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-channels-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-channels.so -> libgnuradio-channels-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-digital-3.7.10git.so -> libgnuradio-digital-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-digital-3.7.10git.so.0 -> libgnuradio-digital-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-digital-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-digital.so -> libgnuradio-digital-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-dtv-3.7.10git.so -> libgnuradio-dtv-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-dtv-3.7.10git.so.0 -> libgnuradio-dtv-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-dtv-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-dtv.so -> libgnuradio-dtv-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fcd-3.7.10git.so -> libgnuradio-fcd-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fcd-3.7.10git.so.0 -> libgnuradio-fcd-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-fcd-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fcd.so -> libgnuradio-fcd-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fec-3.7.10git.so -> libgnuradio-fec-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fec-3.7.10git.so.0 -> libgnuradio-fec-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-fec-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fec.so -> libgnuradio-fec-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fft-3.7.10git.so -> libgnuradio-fft-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fft-3.7.10git.so.0 -> libgnuradio-fft-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-fft-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-fft.so -> libgnuradio-fft-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-filter-3.7.10git.so -> libgnuradio-filter-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-filter-3.7.10git.so.0 -> libgnuradio-filter-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-filter-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-filter.so -> libgnuradio-filter-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-noaa-3.7.10git.so -> libgnuradio-noaa-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-noaa-3.7.10git.so.0 -> libgnuradio-noaa-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-noaa-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-noaa.so -> libgnuradio-noaa-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-pager-3.7.10git.so -> libgnuradio-pager-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-pager-3.7.10git.so.0 -> libgnuradio-pager-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-pager-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-pager.so -> libgnuradio-pager-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-pmt-3.7.10git.so -> libgnuradio-pmt-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-pmt-3.7.10git.so.0 -> libgnuradio-pmt-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-pmt-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-pmt.so -> libgnuradio-pmt-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-runtime-3.7.10git.so -> libgnuradio-runtime-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-runtime-3.7.10git.so.0 -> libgnuradio-runtime-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-runtime-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-runtime.so -> libgnuradio-runtime-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-trellis-3.7.10git.so -> libgnuradio-trellis-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-trellis-3.7.10git.so.0 -> libgnuradio-trellis-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-trellis-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-trellis.so -> libgnuradio-trellis-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-vocoder-3.7.10git.so -> libgnuradio-vocoder-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-vocoder-3.7.10git.so.0 -> libgnuradio-vocoder-3.7.10git.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnuradio-vocoder-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnuradio-vocoder.so -> libgnuradio-vocoder-3.7.10git.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libvolk.so -> libvolk.so.1.2
+-rwxr-xr-x	root/root	usr/lib/libvolk.so.1.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gnuradio-analog.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gnuradio-atsc.pc
@@ -1424,6 +1454,16 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/gnuradio/fcd/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fcd/fcd_swig.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fcd/fcd_swig.pyo
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/Generate_LDPC_matrix.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/Generate_LDPC_matrix.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/Generate_LDPC_matrix.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/Generate_LDPC_matrix_functions.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/Generate_LDPC_matrix_functions.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/Generate_LDPC_matrix_functions.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/LDPC/__init__.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/__init__.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/__init__.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/__init__.pyo
@@ -1461,6 +1501,22 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/fec_test.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/fec_test.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/fec_test.pyo
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/__init__.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction_awgn.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction_awgn.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction_awgn.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction_bec.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction_bec.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/channel_construction_bec.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/helper_functions.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/helper_functions.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/polar/helper_functions.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/threaded_decoder.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/threaded_decoder.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/gnuradio/fec/threaded_decoder.pyo

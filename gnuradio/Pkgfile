@@ -4,7 +4,7 @@
 # Depends on: cmake boost cppunit fftw swig numpy cheetah-template portaudio
 
 name=gnuradio
-version=3.7.8.1
+version=3.7.9
 release=1
 source=(http://gnuradio.org/releases/gnuradio/gnuradio-$version.tar.gz)
 
