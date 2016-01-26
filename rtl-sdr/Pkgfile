@@ -1,0 +1,19 @@
+# Description: software to turn the RTL2832U into a SDR
+# URL: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: cmake
+
+name=rtl-sdr
+version=0.5.3
+release=1
+source=(http://git.osmocom.org/${name}/snapshot/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+	cmake -DINSTALL_UDEV_RULES=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}
