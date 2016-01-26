@@ -2,10 +2,10 @@
 # URL: http://kicad-pcb.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
 # Packager: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: cmake wxgtk glew boost
+# Depends on: cmake wxgtk wxpython glew boost swig
 
 name=kicad
-version=4.0.0
+version=4.0.1
 release=1
 source=(https://launchpad.net/$name/4.0/$version/+download/$name-$version.tar.xz)
 
@@ -14,7 +14,7 @@ build() {
 
 	mkdir build
 	cd build
-	cmake -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=$version -DKICAD_SKIP_BOOST=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+	cmake -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=$version -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON -DKICAD_SKIP_BOOST=ON -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
 	rm -r $PKG/usr/share/doc/
