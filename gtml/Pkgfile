@@ -1,0 +1,16 @@
+# Description: an HTML pre-processor
+# URL: http://gtml.sourceforge.net/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on:
+
+name=gtml
+version=3.5.4
+release=1
+source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz defined-array.patch)
+
+build()
+{
+  cd ${name}-${version}
+  patch -p1 < ../defined-array.patch
+  install -D -t $PKG/usr/bin gtml
+}

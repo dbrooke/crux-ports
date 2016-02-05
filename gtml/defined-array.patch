@@ -1,0 +1,19 @@
+# Description: Fix deprecation warnings
+#  Starting with Perl v5.18.2, we started seeing deprecation warnings
+#  like "defined(@array) is deprecated at /usr/bin/gtml line 1613".
+#  Although upstream is basically abandoned, I touched base with the
+#  maintainer, and he suggested the fix below based on notes in
+#  http://perldoc.perl.org/functions/defined.html.
+# Bug-Debian: http://bugs.debian.org/739905
+# Author: Kenneth J. Pronovici <pronovic@debian.org>
+--- a/gtml
++++ b/gtml
+@@ -1610,7 +1610,7 @@
+     #
+     # Process source files only if asked.
+     #
+-    if ( defined(@fileToProcess) && ! (&Member($name, @fileToProcess)) )
++    if (@fileToProcess && ! (&Member($name, @fileToProcess)) )
+     {
+         return;
+     }
