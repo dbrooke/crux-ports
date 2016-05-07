@@ -5,7 +5,7 @@
 
 name=cheetah-template
 version=2.4.4
-release=1
+release=2
 source=(https://pypi.python.org/packages/source/C/Cheetah/Cheetah-$version.tar.gz)
 
 build() {
@@ -13,4 +13,5 @@ build() {
 
 	/usr/bin/python setup.py build
 	/usr/bin/python setup.py install --root=$PKG
+	find $PKG -name '*egg-info' | xargs rm -r
 }
