@@ -8,6 +8,15 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gen_packets
 -rwxr-xr-x	root/root	usr/bin/ll2utm
 -rwxr-xr-x	root/root	usr/bin/log2gpx
+-rwxr-xr-x	root/root	usr/bin/telem-balloon.pl
+-rwxr-xr-x	root/root	usr/bin/telem-bits.pl
+-rwxr-xr-x	root/root	usr/bin/telem-data.pl
+-rwxr-xr-x	root/root	usr/bin/telem-data91.pl
+-rwxr-xr-x	root/root	usr/bin/telem-eqns.pl
+-rwxr-xr-x	root/root	usr/bin/telem-parm.pl
+-rwxr-xr-x	root/root	usr/bin/telem-seq.sh
+-rwxr-xr-x	root/root	usr/bin/telem-unit.pl
+-rwxr-xr-x	root/root	usr/bin/telem-volts.py
 -rwxr-xr-x	root/root	usr/bin/text2tt
 -rwxr-xr-x	root/root	usr/bin/tt2text
 -rwxr-xr-x	root/root	usr/bin/ttcalc
