@@ -1,10 +1,10 @@
 # Description: signal processing blocks to implement software radios
 # URL: http://gnuradio.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: cmake boost cppunit fftw swig numpy cheetah-template portaudio
+# Depends on: cmake boost cppunit fftw swig numpy cheetah-template portaudio wxpython pygtk lxml gsl
 
 name=gnuradio
-version=3.7.9
+version=3.7.10.1
 release=1
 source=(http://gnuradio.org/releases/gnuradio/gnuradio-$version.tar.gz)
 
@@ -16,5 +16,6 @@ build() {
 	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
-	rm -r $PKG/usr/share
+	find $PKG/usr/share -type f -name "README*" -delete
+	rm -rf $PKG/usr/libexec
 }
