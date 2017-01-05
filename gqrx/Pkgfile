@@ -1,19 +1,19 @@
 # Description: software defined radio receiver
 # URL: http://gqrx.dk/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: gr-osmosdr qt4
+# Depends on: gr-osmosdr qt5
 
 name=gqrx
-version=2.5.3
+version=2.6
 release=1
-source=(https://github.com/csete/${name}/releases/download/v${version}/${name}-sdr-src-${version}.tar.xz)
+source=(https://github.com/csete/${name}/releases/download/v${version}/${name}-sdr-${version}-src.tar.xz)
 
 build() {
 	cd $name-sdr-$version
 
 	mkdir build
 	cd build
-	qmake PREFIX=/usr ..
+	qmake-qt5 PREFIX=/usr ..
 	make
 	make INSTALL_ROOT=$PKG install
 }
