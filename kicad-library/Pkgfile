@@ -1,11 +1,10 @@
 # Description: open source electronics design component library
 # URL: http://kicad-pcb.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Packager: David Brooke, crux at dbrooke dot me dot uk
 # Depends on: cmake
 
 name=kicad-library
-version=4.0.4
+version=4.0.5
 release=1
 source=(http://downloads.kicad-pcb.org/libraries/$name-$version.tar.gz)
 
@@ -14,7 +13,7 @@ build() {
 
 	mkdir build
 	cd build
-	cmake -DKICAD_REPO_NAME=stable -DKICAD_BUILD_VERSION=$version -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON -DKICAD_SKIP_BOOST=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+	cmake -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON -DKICAD_SKIP_BOOST=ON -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
 }
