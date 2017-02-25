@@ -5,15 +5,15 @@
 
 name=kicad
 version=4.0.5
-release=1
-source=(https://launchpad.net/$name/4.0/$version/+download/$name-$version.tar.xz
-        boost.patch)
+release=2
+source=(https://launchpad.net/$name/4.0/${version%.*}/+download/$name-$version.tar.xz
+        boost-1.61.patch)
 
 build() {
 	cd $name-$version
 
 	export CXXFLAGS+=" -std=c++11"
-	patch -p1 -i $SRC/boost.patch
+	patch -p1 -i $SRC/boost-1.61.patch
 
 	mkdir build
 	cd build
