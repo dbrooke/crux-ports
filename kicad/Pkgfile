@@ -5,8 +5,8 @@
 
 name=kicad
 version=4.0.5
-release=2
-source=(https://launchpad.net/$name/4.0/${version%.*}/+download/$name-$version.tar.xz
+release=3
+source=(https://launchpad.net/$name/${version%.*}/$version/+download/$name-$version.tar.xz
         boost-1.61.patch)
 
 build() {
