@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIoawIsmZ/tH5ud8bCKxQ+XjCUQQq4cSPRdwjLC6HLZmRiuhh6wG6SJWPG5AInPrvyBSop+RsL3fencJLzDviEwE=
+SHA256 (Pkgfile) = 174d76cd202290eef35025f03b8606faed1321c4987230fa6571c0053de14239
+SHA256 (.footprint) = 1f258f2d9045cb31db26dc8fc0dd56092a5b53a22d4fb3a2519c361282308ac6
+SHA256 (kicad-4.0.5.tar.xz) = 73f286733bb69b04749279a1848cbedfad908e7dcd1d11363c7fae7677c85331
+SHA256 (boost-1.61.patch) = 04c0d01ad5133048126e4bc45e9955a3a0180251528efa4f87a0535e409b6706

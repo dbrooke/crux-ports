@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIjTCdnby6Q+JTn8mpvYvvORP/GG976TUVxDS9zzuXI6cgWauwXTXo0SXL2GYzwOViIWkD7y8JktZvkGuhLK2PAk=
+SHA256 (Pkgfile) = 1864e791bcfa02ad8b574805ae9b17587c142f8c9b17bf00ecc51d3bc5c12640
+SHA256 (.footprint) = 1a4fd5e3b03a998d9eefdd1ff39be9f1c905204ea125d2073b37520232d90cf2
+SHA256 (hamlib-3.1.tar.gz) = 682304c3e88ff6ccfd6a5fc28b33bcc95d2d0a54321973fef015ff62570c994e

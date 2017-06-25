@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIpH25OmY30RvfT9UCPurBb0oEx2HtOZOp8jr9eE6FlyNHrJLLhEPKnUDFq1csGPskkuH5QrmVOqw6gmuF2tBew4=
+SHA256 (Pkgfile) = 2a7ff333b84ae814cbdb483c81b6241b02c0665e68f3b92936dc7e6d6d769536
+SHA256 (.footprint) = e495e3e7d4340312e763ccd348201aab1466a08d27896a2c9ebc398a99ee1cea
+SHA256 (rtl-sdr-0.5.3.tar.xz) = c9cb3b5fb26a94d6c786fed6c50d924051e0fe0d2893ea3b254a23b187625c21

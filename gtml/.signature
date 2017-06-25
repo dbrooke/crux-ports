@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtImC7nfgmpNiuuTuVN879qPwlf5RvMDam6j2/Z5IousIhEKkJWdB1oupoZf8+orRZeaYixVLt3gP/FG+Ug7EBAQk=
+SHA256 (Pkgfile) = fcfcbe7ee3df318bd7b98a528b556ee8273139312608bc1079cce5fbc4abbf70
+SHA256 (.footprint) = da23cdae11b859aa4b22cf2444cdc519159da4485175ad6d694740d1f5251fbe
+SHA256 (gtml-3.5.4.tar.gz) = b331b7ca096ebc40731b7d8c1c54f91780c2250451c8b3ea7b9d95cb2f8140f2
+SHA256 (defined-array.patch) = 1607dc365680986effe81245a1639381b2a8354bbabf22ee4fccd430a8cd4370
