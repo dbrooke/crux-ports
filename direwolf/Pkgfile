@@ -4,17 +4,15 @@
 # Depends on: alsa-lib
 
 name=direwolf
-version=1.3
-release=2
-source=(https://github.com/wb2osz/${name}/archive/${version}.tar.gz
-        gcc6.patch)
+version=1.4
+release=1
+source=(https://github.com/wb2osz/${name}/archive/${version}.tar.gz)
 
 build()
 {
   cd $name-$version 
   sed -i 's|/usr/share|$(INSTALLDIR)/share|' Makefile.linux
   sed -i 's|/man/|/share/man/|' Makefile.linux
-  patch -i $SRC/gcc6.patch
   make
   mkdir -p $PKG/usr/bin
   make INSTALLDIR=$PKG/usr install
