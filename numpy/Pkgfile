@@ -1,11 +1,11 @@
 # Description: discrete fourier transform, basic linear algebra and random number generation
 # URL: http://www.numpy.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: setuptools
+# Depends on: python-setuptools
 
 name=numpy
 version=1.12.0
-release=1
+release=2
 source=(https://github.com/numpy/numpy/releases/download/v${version}/numpy-${version}.tar.gz)
 
 build() {
