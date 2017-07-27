@@ -4,7 +4,7 @@
 # Depends on: cmake boost cppunit fftw swig numpy cheetah-template portaudio wxpython pygtk lxml gsl
 
 name=gnuradio
-version=3.7.10.1
+version=3.7.11
 release=1
 source=(http://gnuradio.org/releases/gnuradio/gnuradio-$version.tar.gz)
 
