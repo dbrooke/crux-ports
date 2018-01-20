@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIvbDhniYjNdH/KDPzd9QLpEK9bf8cY7Q3inxD/8VksZjjPEH0q8SWJMN4YiO4SCcivuAjA0q4S2rlfzCruKeDAg=
-SHA256 (Pkgfile) = d8b130375cb013c4f046eeeb64eed1cb4aad4fbc05507c5724ae6a83d3da915e
-SHA256 (.footprint) = 3cce7a8233fe77b2b48adfbcc7ab9b70250deabe5bab109dfd25362c2fccb3af
-SHA256 (goocanvas-0.15.tar.bz2) = 58b522a2757e467c5b9381ee577edd2cc7b9632452de4a2bc4fed76df748802c
+RWRPZlJ5BPZtIqCA2nVmlbVv7rJ9cchcrjEk+sAAE3mq/3N5t1vU/K3/x7AlWkbF3g98HgBdOSOXAcB1/FPVGjt/MpQzouL85QY=
+SHA256 (Pkgfile) = 335dfd111773c251bfe4bdd1b96f6586bfb010ea4908b4ed1befcf57ff65fad3
+SHA256 (.footprint) = 07dd84d6e6bbcfcf48553654995c4973d52a548e3a49a40045912f77fd74c1b0
+SHA256 (goocanvas-2.0.4.tar.xz) = c728e2b7d4425ae81b54e1e07a3d3c8a4bd6377a63cffa43006045bceaa92e90
