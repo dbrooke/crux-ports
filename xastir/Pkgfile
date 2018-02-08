@@ -6,12 +6,12 @@
 
 name=xastir
 version=2.0.8
-release=1
-source=(http://downloads.sourceforge.net/project/$name/$name-stable/$name-$version/$name-$version.tar.gz)
+release=2
+source=(https://github.com/Xastir/Xastir/archive/Xastir-Release-${version}.tar.gz)
 
 build()
 {
-  cd $name-$version 
+  cd Xastir-Xastir-Release-${version}
   ./configure --prefix=/usr
   make
   make DESTDIR=$PKG install
