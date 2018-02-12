@@ -5,13 +5,13 @@
 # Depends on: graphicsmagick lesstif
 
 name=xastir
-version=2.0.8
-release=2
-source=(https://github.com/Xastir/Xastir/archive/Xastir-Release-${version}.tar.gz)
+version=2.1.0
+release=1
+source=(https://github.com/Xastir/Xastir/archive/Release-${version}/Xastir-Release-${version}.tar.gz)
 
 build()
 {
-  cd Xastir-Xastir-Release-${version}
+  cd Xastir-Release-${version}
   ./configure --prefix=/usr
   make
   make DESTDIR=$PKG install

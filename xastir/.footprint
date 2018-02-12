@@ -23,6 +23,8 @@ drwxr-xr-x	root/root	usr/share/xastir/config/
 -rw-r--r--	root/root	usr/share/xastir/config/OSM_Cloudmade_natural.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/OSM_Cloudmade_poi.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/OSM_Cloudmade_water_and_coastline.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/OSM_geofabrik_roads.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/OSM_geofabrik_waterways.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/arealm.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/areawater.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/cousub.dbfawk
@@ -58,6 +60,8 @@ drwxr-xr-x	root/root	usr/share/xastir/config/
 -rw-r--r--	root/root	usr/share/xastir/config/nwsmzddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsmzddmmyy_09.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsmzddmmyy_11.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/nwsmzddmmyy_16.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/nwsmzddmmyy_17.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsmzoddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsozddap12.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsozddmmyy.dbfawk
@@ -70,6 +74,7 @@ drwxr-xr-x	root/root	usr/share/xastir/config/
 -rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_13.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_14.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_14a.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_17.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz1ddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy_09.dbfawk
@@ -144,8 +149,19 @@ drwxr-xr-x	root/root	usr/share/xastir/maps/Online/
 -rw-r--r--	root/root	usr/share/xastir/maps/Online/OSM_tiled_cycle.geo
 -rw-r--r--	root/root	usr/share/xastir/maps/Online/OSM_tiled_fosm.geo
 -rw-r--r--	root/root	usr/share/xastir/maps/Online/OSM_tiled_mapnik.geo
--rw-r--r--	root/root	usr/share/xastir/maps/Online/OSM_tiled_mapquest-aerial.geo
--rw-r--r--	root/root	usr/share/xastir/maps/Online/OSM_tiled_mapquest.geo
+drwxr-xr-x	root/root	usr/share/xastir/maps/Online/geogratis.gc.ca/
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/geogratis.gc.ca/National.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/geogratis.gc.ca/Regional.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/geogratis.gc.ca/Sub_national.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/geogratis.gc.ca/Sub_regional.geo
+drwxr-xr-x	root/root	usr/share/xastir/maps/Online/nationalmap.gov/
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/Aerial.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/Contours.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/Hydrography.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/ShadedRelief.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/Topo1-10.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/TopoRelief1-7.geo
+-rw-r--r--	root/root	usr/share/xastir/maps/Online/nationalmap.gov/Transportation.geo
 -rw-r--r--	root/root	usr/share/xastir/maps/worldhi.map
 drwxr-xr-x	root/root	usr/share/xastir/scripts/
 -rw-r--r--	root/root	usr/share/xastir/scripts/Coordinate.pm
@@ -188,6 +204,8 @@ drwxr-xr-x	root/root	usr/share/xastir/scripts/
 -rw-r--r--	root/root	usr/share/xastir/scripts/values
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/values.pl
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/waypoint-get.pl
+-rwxr-xr-x	root/root	usr/share/xastir/scripts/wms.pl
+-rwxr-xr-x	root/root	usr/share/xastir/scripts/wxnowsrv.pl
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/xastir-fixcfg.sh
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/xastir-migrate.sh
 drwxr-xr-x	root/root	usr/share/xastir/sounds/
