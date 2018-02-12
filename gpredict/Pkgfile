@@ -1,12 +1,12 @@
 # Description: real-time satellite tracking and orbit prediction
 # URL: http://gpredict.oz9aec.net
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: intltool goocanvas
+# Depends on: goocanvas
 
 name=gpredict
-version=2.2
+version=2.2.1
 release=1
-source=(https://downloads.sourceforge.net/project/${name}/Gpredict/${version}/${name}-${version}.tar.bz2)
+source=(https://github.com/csete/gpredict/releases/download/v${version}/gpredict-${version}.tar.bz2)
 build() {
   cd $name-$version
   ./configure --prefix=/usr

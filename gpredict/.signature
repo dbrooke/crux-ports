@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIidiJCUfufbZJprqPUJ8pXSS7efPjv+kUkkfcqw6AI+CW5vT7jG3FyeCK9Q8J3fLkyQMtzHRsvTDnkvl3EhPXAs=
-SHA256 (Pkgfile) = 53a2a974ace5b09f57168b26992bc9e346583f7e7b500c3c66f956c7eb738024
+RWRPZlJ5BPZtIi0ycW9t9v6CVuDMbckhogmnjTur0+MW3JcYaE6bPh06wLUM/nrH8ut2XpuV5OJzWyG0djQPnazanYWWhVz4Xgg=
+SHA256 (Pkgfile) = 70e71b2e91e8947dee87047ef5274e635a95cf9a03e724d86ef27c0bb6b3d054
 SHA256 (.footprint) = 1717c4f9e9a8ead9c0ec0b2e79c8b4ce54021d6f4ad5e5fe2155a445aa6b0851
-SHA256 (gpredict-2.2.tar.bz2) = 232a170569b2d67e82423c8e0de677352834df01fb6aea8edb66f0a058375636
+SHA256 (gpredict-2.2.1.tar.bz2) = e759c4bae0b17b202a7c0f8281ff016f819b502780d3e77b46fe8767e7498e43
