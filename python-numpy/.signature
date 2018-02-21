@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIik+D7gk2Pflk5Cf8C2psbmvgxfqsz7nLaVaAcnW9NyMxKPn0hYFfmymBQC1vVd6Yi6LI+IKf0/zMYy1Jbkj5wM=
-SHA256 (Pkgfile) = 6cd2eaf9bcae4cbd9a61dc720b1450217376b6a849aa471755c6980daf29ccad
+RWRPZlJ5BPZtIkKbfxpRyRByVt642hMWv58SHwT+PNg6EeOZiqvYIs4U1NUZ6P3iUEIO3uXgO8BvWARJyP2do1pp7HJZ0PTHygA=
+SHA256 (Pkgfile) = 194e1db6c91230edb4b46c6b6a6d4052bb87b352cf2fea18e1e3d8f6c076b0e5
 SHA256 (.footprint) = a09a04ca97bd39f009fdcacea8ec778214b4cdc761ea525d0654019e0914eeb0
-SHA256 (numpy-1.14.0.tar.gz) = c45d99134bb07600e916537c51c22e87f9e0c44b05d71018ab4907e195f007ce
+SHA256 (numpy-1.14.1.tar.gz) = 8708a775be9a9a457b80a49193c57bd9d51a8a195ed1f1c4b8e89eaf3aa646ee
