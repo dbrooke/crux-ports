@@ -1,0 +1,18 @@
+# Description: open source electronics design footprint library
+# URL: http://kicad-pcb.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on:
+
+name=kicad-footprints
+version=4.0.7
+release=1
+source=(http://downloads.kicad-pcb.org/libraries/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	install -d $PKG/usr/share/kicad/modules
+	cp -r *.pretty $PKG/usr/share/kicad/modules
+
+	find $PKG/ -name "README*" | xargs rm
+}
