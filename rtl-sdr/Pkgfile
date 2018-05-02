@@ -5,8 +5,8 @@
 
 name=rtl-sdr
 version=0.5.4
-release=1
-source=(https://github.com/steve-m/librtlsdr/archive/v${version}.tar.gz)
+release=2
+source=(https://github.com/steve-m/librtlsdr/archive/v${version}/librtlsdr-v${version}.tar.gz)
 
 build() {
 	cd librtlsdr-${version}

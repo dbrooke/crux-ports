@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIiBZN3PEDTBGzdhCGGrVPNOI04B337yu2RTVHShTQOzpN2LHktAle1H73AOmtRSutwPXfhg1y9JZJ4smJp0e7ww=
-SHA256 (Pkgfile) = 67d2f1a65e5f54723c36a5a2b41b994208b6ab015dccc53750987617845367ae
+RWRPZlJ5BPZtIsBuWT1av3TsoVskIBtQ4XHuFIcjGoj+JJCXyhgA89vN+XUfeqiN97U8upveRiJJktv23LaJhiP3F5frzDqM7Qk=
+SHA256 (Pkgfile) = e444cfd96164b6aafe4ead80d35b27fa7955a4820e652b0d54ba800da2365a2a
 SHA256 (.footprint) = ae840db01c9c9f36e12a2a8cd1a5fd2fab7ccf40ce142f10babbda8f0a58021b
-SHA256 (v0.5.4.tar.gz) = 6fd0d298c1a18fc8005b0c2f6199b08bc15e3fb4f4312f551eea2ae269c940c5
+SHA256 (librtlsdr-v0.5.4.tar.gz) = 6fd0d298c1a18fc8005b0c2f6199b08bc15e3fb4f4312f551eea2ae269c940c5
