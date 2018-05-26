@@ -4,7 +4,7 @@
 # Depends on: gr-osmosdr qt5
 
 name=gqrx
-version=2.11.4
+version=2.11.5
 release=1
 source=(https://github.com/csete/${name}/releases/download/v${version}/${name}-sdr-${version}-src.tar.xz)
 
