@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIkVUlrThlVvGAH36i0W9QkIUQ9JKWXN49bSV/JKOOu09j/P1LCThsxhWORVfsZ8gggv48f+t7csXfoHVhxzeCgI=
-SHA256 (Pkgfile) = f02198ec4b1b220f91f131eed43b4f3ac49afd369a18ba141bd40447f0e1dc2a
-SHA256 (.footprint) = 8b067a3bb89047c457921dc3a984dc06b91f9743d438d5d32108168e87a59014
-SHA256 (gnuradio-3.7.11.tar.gz) = 87d9ba3183858efdbb237add3f9de40f7d65f25e16904a9bc8d764a7287252d4
+RWRPZlJ5BPZtIse3dQB5uAmyIXYwV6yNjHvZTsz8xdpYyWSm6jDTlne9QzBukLNaek1R+PpOODNRYZ0WMOqtnqnPGgSTH3BjmwI=
+SHA256 (Pkgfile) = fb1dc0995a1b97995bdae456d71c246ef80a704303d130448a870fcb5bb36de2
+SHA256 (.footprint) = d1a07dd247475f8c4cb18ebd486bdfaf30c69b63fd0702b7ce16ed01f024bb87
+SHA256 (gnuradio-3.7.13.3.tar.gz) = 1e07ce40fa3c3eede1fb54e320dad8a221a3c01de341e9cef2d7b265ed06a6e9

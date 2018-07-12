@@ -1,11 +1,11 @@
 # Description: signal processing blocks to implement software radios
 # URL: http://gnuradio.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: cmake boost cppunit fftw swig python-numpy cheetah-template portaudio wxpython pygtk lxml gsl
+# Depends on: boost cheetah-template cppunit fftw gsl lxml portaudio pygtk python-numpy python-six swig wxpython
 
 name=gnuradio
-version=3.7.11
-release=2
+version=3.7.13.3
+release=1
 source=(http://gnuradio.org/releases/gnuradio/gnuradio-$version.tar.gz)
 
 build() {
