@@ -1,9 +1,9 @@
-# Description: open source electronics design footprint library
+# Description: open source electronics design symbol library
 # URL: http://kicad-pcb.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
 # Depends on: cmake
 
-name=kicad-footprints
+name=kicad-symbols
 version=5.0.0
 release=1
 source=(https://github.com/KiCad/${name}/archive/${version}/${name}-${version}.tar.gz)
