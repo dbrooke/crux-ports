@@ -1,0 +1,17 @@
+# Description: open source mixed-level/mixed-signal circuit simulator
+# URL: http://ngspice.sourceforge.net/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+
+name=ngspice
+version=28
+release=1
+source=(http://downloads.sourceforge.net/sourceforge/${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure --prefix=/usr --mandir=/usr/share/man --with-ngshared --enable-xspice --enable-cider --enable-openmp
+
+	make
+	make DESTDIR=$PKG install
+}
