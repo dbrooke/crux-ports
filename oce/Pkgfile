@@ -1,0 +1,20 @@
+# Description: opencascade community edition, a C++ 3D modeling library
+# URL: https://github.com/tpaviot/oce
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: glu freetype
+
+name=oce
+version=OCE-0.18.3
+release=1
+source=(https://github.com/tpaviot/${name}/archive/${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+	cmake .. -DOCE_INSTALL_PREFIX:PATH=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
