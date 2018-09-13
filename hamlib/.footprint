@@ -19,14 +19,14 @@ drwxr-xr-x	root/root	usr/include/hamlib/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libhamlib++.a
 -rwxr-xr-x	root/root	usr/lib/libhamlib++.la
-lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.2.1.2
-lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.2 -> libhamlib++.so.2.1.2
--rwxr-xr-x	root/root	usr/lib/libhamlib++.so.2.1.2
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.2.1.3
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.2 -> libhamlib++.so.2.1.3
+-rwxr-xr-x	root/root	usr/lib/libhamlib++.so.2.1.3
 -rw-r--r--	root/root	usr/lib/libhamlib.a
 -rwxr-xr-x	root/root	usr/lib/libhamlib.la
-lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.2.1.2
-lrwxrwxrwx	root/root	usr/lib/libhamlib.so.2 -> libhamlib.so.2.1.2
--rwxr-xr-x	root/root	usr/lib/libhamlib.so.2.1.2
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.2.1.3
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so.2 -> libhamlib.so.2.1.3
+-rwxr-xr-x	root/root	usr/lib/libhamlib.so.2.1.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/hamlib.pc
 drwxr-xr-x	root/root	usr/share/
@@ -41,3 +41,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/rigswr.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/rotctl.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/rotctld.1.gz
+drwxr-xr-x	root/root	usr/share/man/man7/
+-rw-r--r--	root/root	usr/share/man/man7/hamlib-primer.7.gz
+-rw-r--r--	root/root	usr/share/man/man7/hamlib-utilities.7.gz
+-rw-r--r--	root/root	usr/share/man/man7/hamlib.7.gz
