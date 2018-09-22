@@ -4,9 +4,9 @@
 # Depends on: cmake
 
 name=rtl-sdr
-version=0.5.4
-release=2
-source=(https://github.com/steve-m/librtlsdr/archive/v${version}/librtlsdr-v${version}.tar.gz)
+version=0.6.0
+release=1
+source=(https://github.com/steve-m/librtlsdr/archive/${version}/librtlsdr-${version}.tar.gz)
 
 build() {
 	cd librtlsdr-${version}
