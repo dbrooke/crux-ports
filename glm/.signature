@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIsdbK042kkwHt01pWhlc3rrgN3ULOal1SNIrWrQ2The6ah0uc9xJmcrK1XpI4acU1FBVXiEIgk7BeDNGJqvkkgw=
-SHA256 (Pkgfile) = 57691d6e848fcc6cd278537cc407f00c3050fb72a910eb9a79d2d885a41afe89
-SHA256 (.footprint) = ef7920af9f8a28bd0d2ba6b5d4d3a1bc99fbed4aa7a9e4e3a9c17746db60d356
-SHA256 (0.9.9.0.tar.gz) = 514dea9ac0099dc389cf293cf1ab3d97aff080abad55bf79d4ab7ff6895ee69c
+RWRPZlJ5BPZtItMLOwvQ6gTtYVo+71ebcLgoSZIroTExYlPv19/UvmPSfO8wJixPXWVY9755LZ5Np//t4Kps48ofhOOwJwxhcQ8=
+SHA256 (Pkgfile) = 7903c0ea9e65a2899605e95560993a2b6eb24d38fe38327997678ddbd704f254
+SHA256 (.footprint) = 5d1db33f8c3a72e2b35dbdefff70c1fc6bc2136aebccaa9c90994e879847d861
+SHA256 (glm-0.9.9.2.tar.gz) = 39ed8d2fff3de053c98f1381dccfa9cee524a89c5b00d204d58dec56cf4ffb33
