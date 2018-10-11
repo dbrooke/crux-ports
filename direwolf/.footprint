@@ -1,11 +1,17 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/udev/
+drwxr-xr-x	root/root	etc/udev/rules.d/
+-rw-r--r--	root/root	etc/udev/rules.d/99-direwolf-cmedia.rules
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/aclients
 -rwxr-xr-x	root/root	usr/bin/atest
+-rwxr-xr-x	root/root	usr/bin/cm108
 -rwxr-xr-x	root/root	usr/bin/decode_aprs
 -rwxr-xr-x	root/root	usr/bin/direwolf
--rwxr-xr-x	root/root	usr/bin/dwespeak.sh
+-rwxr-xr-x	root/root	usr/bin/dwspeak.sh
 -rwxr-xr-x	root/root	usr/bin/gen_packets
+-rwxr-xr-x	root/root	usr/bin/kissutil
 -rwxr-xr-x	root/root	usr/bin/ll2utm
 -rwxr-xr-x	root/root	usr/bin/log2gpx
 -rwxr-xr-x	root/root	usr/bin/telem-balloon.pl
@@ -25,7 +31,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/direwolf.desktop
 drwxr-xr-x	root/root	usr/share/direwolf/
--rw-r--r--	root/root	usr/share/direwolf/dw-icon.png
+drwxr-xr-x	root/root	usr/share/direwolf/pixmaps/
+-rw-r--r--	root/root	usr/share/direwolf/pixmaps/dw-icon.png
 -rw-r--r--	root/root	usr/share/direwolf/symbols-new.txt
 -rw-r--r--	root/root	usr/share/direwolf/symbolsX.txt
 -rw-r--r--	root/root	usr/share/direwolf/tocalls.txt
@@ -36,6 +43,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/decode_aprs.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/direwolf.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gen_packets.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/kissutil.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/ll2utm.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/log2gpx.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/text2tt.1.gz

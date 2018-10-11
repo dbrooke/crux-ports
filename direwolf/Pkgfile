@@ -4,17 +4,15 @@
 # Depends on: alsa-lib
 
 name=direwolf
-version=1.4
+version=1.5
 release=1
-source=(https://github.com/wb2osz/${name}/archive/${version}.tar.gz)
+source=(https://github.com/wb2osz/${name}/archive/${version}/${name}-${version}.tar.gz)
 
 build()
 {
   cd $name-$version 
-  sed -i 's|/usr/share|$(INSTALLDIR)/share|' Makefile.linux
-  sed -i 's|/man/|/share/man/|' Makefile.linux
+  sed -i "s|\(/etc/udev/rules\.d/\)|${PKG}\1|" Makefile.linux
   make
-  mkdir -p $PKG/usr/bin
-  make INSTALLDIR=$PKG/usr install
+  make DESTDIR=$PKG/usr install
   rm -r $PKG/usr/share/doc
 }
