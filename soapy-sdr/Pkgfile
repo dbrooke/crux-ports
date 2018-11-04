@@ -1,0 +1,18 @@
+# Description: Vendor and platform neutral SDR support library
+# URL: https://github.com/pothosware/SoapySDR/wiki
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: cmake git
+
+name=soapy-sdr
+version=0.7.0
+release=1
+source=(https://github.com/pothosware/SoapySDR/archive/${name}-${version}.tar.gz)
+
+build() {
+	cd SoapySDR-${name}-${version}
+	mkdir builddir
+	cd builddir
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}
