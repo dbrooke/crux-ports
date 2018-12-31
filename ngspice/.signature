@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIpk9c8736pdcmQ84huolWNWMJr7LjYkTCoAOXtd+j9LKYkPn8VFhthstRCc8wEU4ttAA955pkSIVuNS8Pji5Uwk=
-SHA256 (Pkgfile) = 9ada91fc894c98c74bb61fedd9d967e584b9fb83918e742b67925b14f2588d4e
-SHA256 (.footprint) = 73bb43dab0fb4efd27cfed2127a843f9affdb977d1c636371d99346aa3816509
-SHA256 (ngspice-28.tar.gz) = 94804fa78c8db2f90f088902e8c27f7b732a66767a58c70f37612bff5a16df66
+RWRPZlJ5BPZtIoCaEEYd141LEWdQ6TUMwwmes5iLplsuivSUY6s+Rg+oq8NtQpKKyWWp1uVpoI7LdHLbLNKbwoCb3TkUEn3TXwg=
+SHA256 (Pkgfile) = 43676decf3c57edc1bcdf2283a5dbc8e6429d46ddfda0b0fb627dd5e3bef8cb9
+SHA256 (.footprint) = efc3c6dd1dbfe17b53164fda149060fe043594a9a02e5e85c64c8d216706fd7c
+SHA256 (ngspice-29.tar.gz) = 8d6d0ffbc15f248eb6ec3bde3b9d1397fbc95cb677e1c6a14ff46065c7f95c4a
