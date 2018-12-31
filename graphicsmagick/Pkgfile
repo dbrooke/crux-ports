@@ -3,7 +3,7 @@
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
 
 name=graphicsmagick
-version=1.3.30
+version=1.3.31
 release=1
 source=(http://downloads.sourceforge.net/project/$name/$name/$version/GraphicsMagick-$version.tar.xz)
 
