@@ -312,6 +312,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/Relay.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Relay_SolidState.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Relay_SolidState.lib
+-rw-r--r--	root/root	usr/share/kicad/library/Security.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/Security.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Sensor.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Sensor.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Sensor_Audio.dcm
