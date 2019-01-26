@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIo1gS7xeiS2Bp/tsIytXJ2lnDfVmFKfa5fp23eYkRtMDnDM+3Fv/8ylxg3IcufqDqEgIBkfy57pWD3E4SEVBNQ8=
-SHA256 (Pkgfile) = 1cb63d1efbd33cef32d4b6ad0806b604ff78f41263ae363f4e4e01d76bf961bb
-SHA256 (.footprint) = 470c5fddaf1ef77dc7f884b51d2c3561f83738d873e81f15b3904ea885fd090c
-SHA256 (soapy-sdr-0.7.0.tar.gz) = cb2344be77f4d04f6cbafa183c7e39a2e6eb0da39c98fa77e9d60686c4e81e52
+RWRPZlJ5BPZtIu2Kha/0UgXwR3tn8MfnpJHybl7aXku9lmag/dwT6rkNiynUPz5SHPToPNwmcORy83wReRKNM5+ORtuT5YMK2gc=
+SHA256 (Pkgfile) = 242d6fe557067bac451125208dc01dda7d4f905d3c150a73308404f40c01d15b
+SHA256 (.footprint) = 727f0e93840d46b7f9aa298b4220da63cf1dad9cb7c1415bcfb527552dc5ad1d
+SHA256 (soapy-sdr-0.7.1.tar.gz) = 5445fbeb92f1322448bca3647f8cf12cc53d31ec6e0f11e0a543bacf43c8236d
