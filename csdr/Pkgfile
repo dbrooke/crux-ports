@@ -1,0 +1,18 @@
+# Description: A simple DSP library and command-line tool for Software Defined Radio
+# URL: https://github.com/simonyiszk/csdr
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: fftw
+
+name=csdr
+version=0.15
+release=1
+source=(https://github.com/simonyiszk/${name}/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make
+
+	mkdir -p ${PKG}/usr/{lib,bin}
+	make PREFIX=${PKG}/usr install
+}

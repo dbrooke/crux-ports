@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIkWmi3jAEPHaY9AokGPKxg8UZwY9NykqP9SHekfxDcJpzndcKxOXgC1HdaOx3GikNapJ8r8jBQ99LsrKz/RHkgU=
+SHA256 (Pkgfile) = bcd29b0f398cad22ad7f2fe04e0c911ac298f4d2fbc780bdaf14a39460d2c704
+SHA256 (.footprint) = 83f2d096d932422af79711fc5a5e42e5b8da478f3783a32e9f6c13ae185a4c16
+SHA256 (csdr-0.15.tar.gz) = 5273633dac6e7ed8d4abdbd8c5a9c466a3924e5853b18723701935067cdaa00b
