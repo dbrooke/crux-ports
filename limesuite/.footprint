@@ -37,8 +37,8 @@ drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/LimeSuite/
 -rw-r--r--	root/root	usr/lib/cmake/LimeSuite/LimeSuiteConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LimeSuite/LimeSuiteConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so -> libLimeSuite.so.18.10-1
-lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so.18.10-1 -> libLimeSuite.so.18.10.0
--rwxr-xr-x	root/root	usr/lib/libLimeSuite.so.18.10.0
+lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so -> libLimeSuite.so.19.01-1
+lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so.19.01-1 -> libLimeSuite.so.19.01.0
+-rwxr-xr-x	root/root	usr/lib/libLimeSuite.so.19.01.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/LimeSuite.pc
