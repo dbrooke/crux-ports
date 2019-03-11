@@ -363,10 +363,10 @@ drwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/__init__.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/bga_wizard.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/circular_pad_array_wizard.py
+-rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/kicad_qrcode.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/microMatch_connectors.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/qfn_wizard.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/qfp_wizard.py
--rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/qrcode.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/qrcode_footprint_wizard.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/sdip_wizard.py
 -rwxr-xr-x	root/root	usr/share/kicad/scripting/plugins/touch_slider_wizard.py

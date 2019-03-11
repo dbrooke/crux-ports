@@ -48,6 +48,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/CPU_NXP_6800.lib
 -rw-r--r--	root/root	usr/share/kicad/library/CPU_NXP_68000.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/CPU_NXP_68000.lib
+-rw-r--r--	root/root	usr/share/kicad/library/CPU_NXP_IMX.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/CPU_NXP_IMX.lib
 -rw-r--r--	root/root	usr/share/kicad/library/CPU_PowerPC.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/CPU_PowerPC.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Comparator.dcm
@@ -90,6 +92,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/Driver_Display.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Driver_FET.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Driver_FET.lib
+-rw-r--r--	root/root	usr/share/kicad/library/Driver_Haptic.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/Driver_Haptic.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Driver_LED.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Driver_LED.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Driver_Motor.dcm
@@ -114,6 +118,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/FPGA_Xilinx_Virtex6.lib
 -rw-r--r--	root/root	usr/share/kicad/library/FPGA_Xilinx_Virtex7.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/FPGA_Xilinx_Virtex7.lib
+-rw-r--r--	root/root	usr/share/kicad/library/Fiber_Optic.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/Fiber_Optic.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Filter.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Filter.lib
 -rw-r--r--	root/root	usr/share/kicad/library/GPU.dcm
@@ -130,6 +136,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/Interface_Ethernet.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Interface_Expansion.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Interface_Expansion.lib
+-rw-r--r--	root/root	usr/share/kicad/library/Interface_HDMI.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/Interface_HDMI.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Interface_HID.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Interface_HID.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Interface_LineDriver.dcm
@@ -182,6 +190,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_PIC24.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_PIC32.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_PIC32.lib
+-rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_SAMD.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_SAMD.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_SAME.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_SAME.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Microchip_SAML.dcm
@@ -280,8 +290,12 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/RF_Amplifier.lib
 -rw-r--r--	root/root	usr/share/kicad/library/RF_Bluetooth.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/RF_Bluetooth.lib
+-rw-r--r--	root/root	usr/share/kicad/library/RF_Filter.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/RF_Filter.lib
 -rw-r--r--	root/root	usr/share/kicad/library/RF_GPS.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/RF_GPS.lib
+-rw-r--r--	root/root	usr/share/kicad/library/RF_GSM.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/RF_GSM.lib
 -rw-r--r--	root/root	usr/share/kicad/library/RF_Mixer.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/RF_Mixer.lib
 -rw-r--r--	root/root	usr/share/kicad/library/RF_Module.dcm
@@ -340,6 +354,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/Sensor_Touch.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Sensor_Voltage.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Sensor_Voltage.lib
+-rw-r--r--	root/root	usr/share/kicad/library/Simulation_SPICE.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/Simulation_SPICE.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Switch.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Switch.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Timer.dcm
