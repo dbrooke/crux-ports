@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIguBVyIDQNo7PjiuEjeeHSKTgqvraYu7Hd6eteZ7WMHZXVWz6J0nab7FkXpr+OkVhxxDLngKeNW3Q20GvJmDOA0=
+SHA256 (Pkgfile) = 422f8e764bb4f7301c51ebef8cdc59be73c6246012d6f530f7a5d8552997e5d6
+SHA256 (.footprint) = e020fed8e4a77f61d173c2b0799e0a76c74436317c2c7eed47a8ed04dbab40df
+SHA256 (shapelib-1.5.0.tar.gz) = 1fc0a480982caef9e7b9423070b47750ba34cd0ba82668f2e638fab1d07adae1

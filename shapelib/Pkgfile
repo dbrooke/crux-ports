@@ -1,0 +1,17 @@
+# Description: Tools and C library for manipulation of ESRI Shapefiles
+# URL: http://shapelib.maptools.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on:
+
+name=shapelib
+version=1.5.0
+release=1
+source=(http://download.osgeo.org//${name}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

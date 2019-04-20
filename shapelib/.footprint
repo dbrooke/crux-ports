@@ -1,0 +1,32 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/Shape_PointInPoly
+-rwxr-xr-x	root/root	usr/bin/dbfadd
+-rwxr-xr-x	root/root	usr/bin/dbfcat
+-rwxr-xr-x	root/root	usr/bin/dbfcreate
+-rwxr-xr-x	root/root	usr/bin/dbfdump
+-rwxr-xr-x	root/root	usr/bin/dbfinfo
+-rwxr-xr-x	root/root	usr/bin/shpadd
+-rwxr-xr-x	root/root	usr/bin/shpcat
+-rwxr-xr-x	root/root	usr/bin/shpcentrd
+-rwxr-xr-x	root/root	usr/bin/shpcreate
+-rwxr-xr-x	root/root	usr/bin/shpdata
+-rwxr-xr-x	root/root	usr/bin/shpdump
+-rwxr-xr-x	root/root	usr/bin/shpdxf
+-rwxr-xr-x	root/root	usr/bin/shpfix
+-rwxr-xr-x	root/root	usr/bin/shpinfo
+-rwxr-xr-x	root/root	usr/bin/shprewind
+-rwxr-xr-x	root/root	usr/bin/shpsort
+-rwxr-xr-x	root/root	usr/bin/shptreedump
+-rwxr-xr-x	root/root	usr/bin/shputils
+-rwxr-xr-x	root/root	usr/bin/shpwkb
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/shapefil.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libshp.a
+-rwxr-xr-x	root/root	usr/lib/libshp.la
+lrwxrwxrwx	root/root	usr/lib/libshp.so -> libshp.so.2.1.0
+lrwxrwxrwx	root/root	usr/lib/libshp.so.2 -> libshp.so.2.1.0
+-rwxr-xr-x	root/root	usr/lib/libshp.so.2.1.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/shapelib.pc
