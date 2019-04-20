@@ -2,11 +2,11 @@
 # URL: http://xastir.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
 # Packager: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: graphicsmagick lesstif
+# Depends on: shapelib graphicsmagick lesstif
 
 name=xastir
 version=2.1.0
-release=1
+release=2
 source=(https://github.com/Xastir/Xastir/archive/Release-${version}/Xastir-Release-${version}.tar.gz)
 
 build()
