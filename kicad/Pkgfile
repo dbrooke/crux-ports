@@ -4,7 +4,7 @@
 # Depends on: wxpython glew boost swig glm ngspice oce
 
 name=kicad
-version=5.1.1
+version=5.1.2
 release=1
 source=(https://launchpad.net/$name/${version%.*.*}.0/$version/+download/$name-$version.tar.xz)
 

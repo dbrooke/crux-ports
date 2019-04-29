@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIi0hIG2uc6DcecYdXcaHEFHeSvnlKtMYX7j1gvfIObMtPy9E4zl8wY+u9cfT8YohwyZZqW4Iarloxc+jfL246gk=
-SHA256 (Pkgfile) = 16e49acb04ee78b60468a7ca812b6aaff475a2c5a946bbb0d2dfd6bb2d14adff
+RWRPZlJ5BPZtIsWbhaL2h35XeyOOgCCbFyIA5pO9dtRw1vSG2+MDRzKy2x53X8EqQiPLfVPA973hBM9dI3NuZmgCnkyaFyjzUA0=
+SHA256 (Pkgfile) = 53da5fdc45862e0cc55a0b7000aa8b047b16aad957c2f8e2793fab5180e037d2
 SHA256 (.footprint) = 8bc5b751914f4b8cf8fea286905bb78ce748df377f262df0ccdcd713fb1629de
-SHA256 (kicad-footprints-5.1.1.tar.gz) = be52cf88d37e06b02fa882aab2016fe99834649e89d27f242f14ad1e5ed34720
+SHA256 (kicad-footprints-5.1.2.tar.gz) = fb0f983393c78dc9bb0b060827a98e57d96abe9881f9fb356c2afdecc0fdbfd1
