@@ -4,8 +4,8 @@
 # Depends on: boost cheetah-template cppunit fftw gsl python-lxml portaudio pygtk python-numpy python-six swig wxpython
 
 name=gnuradio
-version=3.7.13.4
-release=2
+version=3.7.13.5
+release=1
 source=(http://gnuradio.org/releases/gnuradio/gnuradio-$version.tar.gz)
 
 build() {
