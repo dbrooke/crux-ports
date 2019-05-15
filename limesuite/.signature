@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtItRNXz10wVXh0dK/Poj7y59b5UGeshzMWMwtiiiprNOAkQxxMlVl62GY8PTTebzU0kXHg2sH4YoWs17qRHhk+Ag=
-SHA256 (Pkgfile) = e8348c6da08b34dcbc5165078be8b4d9411e258ddc221e4dbb09f43f0dce396f
-SHA256 (.footprint) = 77e4624f52118f41c176d62bb1d65f77cd75166b31d0f2f902468cce4896334e
-SHA256 (limesuite-v19.01.0.tar.gz) = 06bc5cb40ae5ebcf7104a02d73864bb1526fd3f86d58f38f3d419b38ed52761e
+RWRPZlJ5BPZtIozomNN6p+59Wu6hUXWVAH8qWYRkQC3VlCpKGg+NdGpiF4LQ8yELhSVPoyvFuXAXg0W9bilHr5scje07BXz6Ywg=
+SHA256 (Pkgfile) = 9b62b82e76e2ad3b739bbdafe50e3131d6d6bc24c19a241c673beb4c324e0735
+SHA256 (.footprint) = 6e48d29f2fe863950f890841ec55dba8581d718ac8d6b5a8df6e5dbb49ae5c7d
+SHA256 (limesuite-v19.04.0.tar.gz) = 353862493acb5a3d889202bcb251e182cc8a877bb54472b8b163c57ad1aaf0ce
