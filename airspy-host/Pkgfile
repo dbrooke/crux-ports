@@ -5,11 +5,11 @@
 
 name=airspy-host
 version=1.0.9
-release=1
-source=(https://github.com/airspy/host/archive/v$version.tar.gz)
+release=2
+source=(https://github.com/airspy/airspyone_host/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
-	cd host-$version
+	cd airspyone_host-$version
 
 	mkdir build
 	cd build
