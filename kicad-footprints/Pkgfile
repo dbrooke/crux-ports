@@ -4,7 +4,7 @@
 # Depends on: cmake
 
 name=kicad-footprints
-version=5.1.2
+version=5.1.4
 release=1
 source=(https://github.com/KiCad/${name}/archive/${version}/${name}-${version}.tar.gz)
 
@@ -13,7 +13,7 @@ build() {
 
 	mkdir build
 	cd build
-	cmake -DCMAKE_BUILD_TYPE=Release -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON -DKICAD_SKIP_BOOST=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+	cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
 }

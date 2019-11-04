@@ -220,6 +220,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Nordic.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Parallax.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Parallax.lib
+-rw-r--r--	root/root	usr/share/kicad/library/MCU_Renesas_Synergy_S1.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/MCU_Renesas_Synergy_S1.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_STC.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_STC.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_ST_STM32F0.dcm

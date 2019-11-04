@@ -4,16 +4,16 @@
 # Depends on: wxpython glew boost swig glm ngspice oce
 
 name=kicad
-version=5.1.2
+version=5.1.4
 release=1
-source=(https://launchpad.net/$name/${version%.*.*}.0/$version/+download/$name-$version.tar.xz)
+source=(https://launchpad.net/${name}/${version%.*.*}.0/${version}/+download/${name}-${version}.tar.xz)
 
 build() {
 	cd $name-$version
 
 	mkdir build
 	cd build
-	cmake -DCMAKE_BUILD_TYPE=Release -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON -DKICAD_SCRIPTING_WXPYTHON=ON -DCMAKE_INSTALL_PREFIX=/usr ..
+	cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
 	rm -r $PKG/usr/share/doc/ $PKG/usr/share/kicad/plugins/README-bom.txt
