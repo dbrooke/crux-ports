@@ -5,8 +5,8 @@
 # Depends on: shapelib graphicsmagick lesstif
 
 name=xastir
-version=2.1.0
-release=2
+version=2.1.4
+release=1
 source=(https://github.com/Xastir/Xastir/archive/Release-${version}/Xastir-Release-${version}.tar.gz)
 
 build()
