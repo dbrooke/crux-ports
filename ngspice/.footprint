@@ -145,12 +145,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/cmpp.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ngmakeidx.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ngmultidec.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ngnutmeg.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ngproc2mod.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ngsconvert.1.gz
--rw-r--r--	root/root	usr/share/man/man1/ngspice.1.gz
 drwxr-xr-x	root/root	usr/share/ngspice/
 -rw-r--r--	root/root	usr/share/ngspice/dlmain.c
 drwxr-xr-x	root/root	usr/share/ngspice/scripts/
