@@ -256,6 +256,8 @@ drwxr-xr-x	root/root	usr/share/kicad/library/
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Texas.lib
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Texas_MSP430.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/MCU_Texas_MSP430.lib
+-rw-r--r--	root/root	usr/share/kicad/library/MCU_Texas_SimpleLink.dcm
+-rw-r--r--	root/root	usr/share/kicad/library/MCU_Texas_SimpleLink.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Mechanical.dcm
 -rw-r--r--	root/root	usr/share/kicad/library/Mechanical.lib
 -rw-r--r--	root/root	usr/share/kicad/library/Memory_Controller.dcm
