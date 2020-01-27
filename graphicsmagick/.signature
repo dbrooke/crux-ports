@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIo+SmVxE+2M00HNFUFTuTS5LCM+x6ElcnrxqP4DbT7QuJgOJz3Zmhl+PlFD+v2zIZx734z5b+WtcypH+sM76zQA=
-SHA256 (Pkgfile) = 7369e4d0eec979afa53e0a5416aaf01cae96141be527f5cde2a3c0e65815eb72
-SHA256 (.footprint) = f8d566bdde67a33329694ea9661e84b32742ed7fe8000861f1500035849d0c2c
-SHA256 (GraphicsMagick-1.3.33.tar.xz) = 130cb330a633580b5124eba5c125bbcbc484298423a97b9bed37ccd50d6dc778
+RWRPZlJ5BPZtIvgg1MJvt7NZO8x7s3MP6sMSp7KO979pScM+mhmZPUF/U6se3S0Qqn9ob2+S7TyaU7zIsIX7sQSEN0rSnVYuHwU=
+SHA256 (Pkgfile) = f281fd99b009c426cc17b6f01c9c50786f1583ec07b96684b431dbb92003d0a0
+SHA256 (.footprint) = 1fe8716474e6a1a462ff0f20911214d4d0aaaab07bb52fc84ffadaf2ee85bee6
+SHA256 (GraphicsMagick-1.3.34.tar.xz) = df009d5173ed0d6a0c6457234256c5a8aeaace782afa1cbab015d5a12bd4f7a4
