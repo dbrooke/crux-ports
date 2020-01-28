@@ -31,14 +31,15 @@ drwxr-xr-x	root/root	usr/include/lime/
 -rw-r--r--	root/root	usr/include/lime/VersionInfo.h
 -rw-r--r--	root/root	usr/include/lime/dataTypes.h
 -rw-r--r--	root/root	usr/include/lime/fifo.h
+-rw-r--r--	root/root	usr/include/lime/limeRFE.h
 -rw-r--r--	root/root	usr/include/lime/lms7_device.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/LimeSuite/
 -rw-r--r--	root/root	usr/lib/cmake/LimeSuite/LimeSuiteConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/LimeSuite/LimeSuiteConfigVersion.cmake
-lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so -> libLimeSuite.so.19.04-1
-lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so.19.04-1 -> libLimeSuite.so.19.04.0
--rwxr-xr-x	root/root	usr/lib/libLimeSuite.so.19.04.0
+lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so -> libLimeSuite.so.20.01-1
+lrwxrwxrwx	root/root	usr/lib/libLimeSuite.so.20.01-1 -> libLimeSuite.so.20.01.0
+-rwxr-xr-x	root/root	usr/lib/libLimeSuite.so.20.01.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/LimeSuite.pc
