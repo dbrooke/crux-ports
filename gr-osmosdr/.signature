@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIt+JSB+BtNwZuiPgCbQiEc/XnmGQg6sroUvoXSluzfDReR8UE8gDDqgZ5McSiYXVbGCYtzYPWtT5fgNF+cnqCwQ=
-SHA256 (Pkgfile) = 1d5aa7effa9c13fd008147a1745bc0460006752c9decf6ad08aae8a0efcfb408
-SHA256 (.footprint) = c3684f6916ecce5c8875f1d85c64c64128dfd483196a77d0ad124a0b3bbb8c15
-SHA256 (gr-osmosdr-0.1.4.tar.xz) = 1945d0d98fd4b600cb082970267ec2041528f13150422419cbd7febe2b622721
+RWRPZlJ5BPZtItydqpcBQgbdaCe7rNKF9/qhzP8VevFoSpKEZgG0XJC7UmR5jMHq6tXYPNFlt7rmiPe7jR14FsJP2MCcLGjDbQM=
+SHA256 (Pkgfile) = c6258c104c63bddcef45c0fe5384ad02c7d78df74c8074f134d1d755fcdb7e8f
+SHA256 (.footprint) = bc8eb02aa8f6fd18f5107d3c0d019e030f5209ce113bdcc163417b6c214c2e2a
+SHA256 (gr-osmosdr-v0.2.0.tar.gz) = 9812429d97bc54f0a8917b880ca9e7e2421c66aeaac8ce5608161a8ae7007122

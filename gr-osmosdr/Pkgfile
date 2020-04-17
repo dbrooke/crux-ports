@@ -4,9 +4,9 @@
 # Depends on: gnuradio
 
 name=gr-osmosdr
-version=0.1.4
+version=0.2.0
 release=1
-source=(http://cgit.osmocom.org/gr-osmosdr/snapshot/$name-$version.tar.xz)
+source=(https://github.com/osmocom/${name}/archive/v${version}/${name}-v${version}.tar.gz)
 
 build() {
 	cd $name-$version
