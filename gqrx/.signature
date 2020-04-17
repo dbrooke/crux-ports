@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIqzftotTI9D/afIlWwqr4X9wVBJdeFX9kkNM017QajGWsMTN8Ho2xdSt6/WlEPMnvnHZ40mjF/CgANoC4Bc+Ggs=
-SHA256 (Pkgfile) = fd0e86f57523d79c80cceda7850ec297ec851e783cd89d915b67f49920296652
+RWRPZlJ5BPZtIsu8hp/ApvwdffIAMyPsL4izE/aSMiOJ1ebh5tqF2V6npifXErA22IKQgpbAPoRN9alaWQ4xkUmVDBUkG+kurwQ=
+SHA256 (Pkgfile) = e507c1605fc317373adb73fee2dd7290085a4e5f7ce3294eccccf163c293f749
 SHA256 (.footprint) = 9d76c19ff8069057e1c75039e76211fbe7f9bbd6f4295ada592b3fff049706f8
-SHA256 (gqrx-sdr-2.11.5-src.tar.xz) = 793062ef7b49a3f986b82a255f949cdda42333107fc5fcea10fd13db74157744
+SHA256 (gqrx-2.12.1.tar.gz) = 7c626db9f22c3edbe30299a08f7f549b4f30dd83c883595468029a27c3e8fda9
