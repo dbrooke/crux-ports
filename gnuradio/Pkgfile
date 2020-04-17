@@ -1,19 +1,21 @@
 # Description: signal processing blocks to implement software radios
 # URL: http://gnuradio.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: boost cheetah-template cppunit fftw gsl python-lxml portaudio pygtk python-numpy python-six swig wxpython
+# Depends on: cmake python3-mako python3-six log4cpp fftw
 
 name=gnuradio
-version=3.7.13.5
+version=3.8.1.0
 release=1
-source=(http://gnuradio.org/releases/gnuradio/gnuradio-$version.tar.gz)
+source=(https://github.com/${name}/${name}/releases/download/v${version}/${name}-${version}.tar.xz)
 
 build() {
-	cd $name-$version
+	cd ${name}-${version%-*}
 
 	mkdir build
 	cd build
-	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+		-DENABLE_GR_TRELLIS=OFF \
+		..
 	make
 	make DESTDIR=$PKG install
 	find $PKG/usr/share -type f -name "README*" -delete
