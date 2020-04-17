@@ -56,6 +56,7 @@ drwxr-xr-x	root/root	usr/share/xastir/config/
 -rw-r--r--	root/root	usr/share/xastir/config/nwsc_ddmmyy_10a.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsc_ddmmyy_13.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsc_ddmmyy_15.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/nwsfz_ddmmyy_19.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwshzddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwshzddmmyy_old14.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsmzddmmyy.dbfawk
@@ -77,6 +78,7 @@ drwxr-xr-x	root/root	usr/share/xastir/config/
 -rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_14.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_14a.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_17.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/nwsw_ddmmyy_20.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz1ddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy_09.dbfawk
@@ -85,6 +87,7 @@ drwxr-xr-x	root/root	usr/share/xastir/config/
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy_10c.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy_11.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy_13.dbfawk
+-rw-r--r--	root/root	usr/share/xastir/config/nwsz_ddmmyy_19.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/nwszoddmmyy.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/pointlm.dbfawk
 -rw-r--r--	root/root	usr/share/xastir/config/predefined_EVENT.sys
@@ -167,7 +170,6 @@ drwxr-xr-x	root/root	usr/share/xastir/maps/Online/nationalmap.gov/
 -rw-r--r--	root/root	usr/share/xastir/maps/worldhi.map
 drwxr-xr-x	root/root	usr/share/xastir/scripts/
 -rw-r--r--	root/root	usr/share/xastir/scripts/Coordinate.pm
--rwxr-xr-x	root/root	usr/share/xastir/scripts/Xastir_tigerpoly.py
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/ads-b.pl
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/ais.pl
 -rwxr-xr-x	root/root	usr/share/xastir/scripts/ais_pp.pl

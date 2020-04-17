@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIljK6TQGxBd+DyncAmRxZ5afvhuxLbVSt1DpKDMkYRtUfHjMMeZiY4fl4MWmpvRIMxOjNZhlHhByd9adTUC7bQ0=
-SHA256 (Pkgfile) = 5fa95864041449af5fc4bdc6157aa97e1bc65c02f1ac032e92d32f24eb97ca13
-SHA256 (.footprint) = fa89b607847408800ef70f4f6d529bb7395d91340abadab919df7e835f94b1b4
-SHA256 (Xastir-Release-2.1.4.tar.gz) = 0bd3768440422a666e1c4c532df0184374244b77ae6650e6690715a0ca1fe7bc
+RWRPZlJ5BPZtIobI7z2o8zK/1eVae1PCRiCvRf3oe7h/gaE0OeEhjcuunqpb+32qIG9hxPBUv5zADNC9QMEeEF4ivyuA0Y/hjgk=
+SHA256 (Pkgfile) = 7f294fd375138a3b9faf640fbdaae39a2288b56a92321a010050ac8c3c6de301
+SHA256 (.footprint) = 166a700d91410bf140078dd78d6c0b541e9f935378c3596a3b8f557ec37ddb78
+SHA256 (Xastir-Release-2.1.6.tar.gz) = 5a71af2936d4d237c779b1c3a519211f8e3cd03b9873a260c849ddc8950e1a3e
