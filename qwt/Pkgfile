@@ -1,0 +1,24 @@
+# Description: extension to the Qt4 GUI application framework 
+# URL: http://qwt.sourceforge.net/
+# Packager: Daryl Fonseca-Holt, wyatt at prairieturtle dot ca
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: qt5
+
+name=qwt
+version=6.1.4
+release=1
+source=(http://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	sed -e '/^unix/,+1 s=/usr/local/qwt-$$QWT_VERSION=/usr/qwt=' \
+		-i qwtconfig.pri
+
+	qmake-qt5 QWT_INSTALL_PREFIX=/usr/qwt
+	make
+	make INSTALL_ROOT=$PKG  install
+
+	mkdir -p $PKG/etc/ld.so.conf.d
+	echo "/usr/qwt/lib" > $PKG/etc/ld.so.conf.d/qwt.conf
+	rm -rf $PKG/usr/qwt/doc/html
+}

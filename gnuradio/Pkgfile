@@ -1,15 +1,17 @@
 # Description: signal processing blocks to implement software radios
 # URL: http://gnuradio.org/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: cmake python3-mako python3-six log4cpp fftw
+# Depends on: log4cpp fftw qwt python3-pyqt5 python3-yaml python3-gobject python3-numpy gtk3 swig
 
 name=gnuradio
 version=3.8.1.0
-release=1
-source=(https://github.com/${name}/${name}/releases/download/v${version}/${name}-${version}.tar.xz)
+release=2
+source=(https://github.com/${name}/${name}/releases/download/v${version}/${name}-${version}.tar.xz cmake_qwt.patch)
 
 build() {
 	cd ${name}-${version%-*}
+
+	patch -p0 < ../cmake_qwt.patch
 
 	mkdir build
 	cd build
