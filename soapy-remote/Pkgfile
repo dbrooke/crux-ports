@@ -1,0 +1,19 @@
+# Description: remote support for Soapy SDR
+# URL: https://github.com/pothosware/SoapyRemote/wiki
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: soapy-sdr
+
+name=soapy-remote
+version=0.5.1
+release=1
+source=(https://github.com/pothosware/SoapyRemote/archive/${name}-${version}.tar.gz)
+
+build() {
+	cd SoapyRemote-${name}-${version}
+	mkdir builddir
+	cd builddir
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/lib/systemd
+}

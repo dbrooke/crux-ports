@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/SoapySDRServer
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/SoapySDR/
+drwxr-xr-x	root/root	usr/lib/SoapySDR/modules0.7/
+-rwxr-xr-x	root/root	usr/lib/SoapySDR/modules0.7/libremoteSupport.so
+drwxr-xr-x	root/root	usr/lib/sysctl.d/
+-rw-r--r--	root/root	usr/lib/sysctl.d/SoapySDRServer.conf
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/SoapySDRServer.1.gz
