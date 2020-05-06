@@ -3,7 +3,7 @@
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
 
 name=ngspice
-version=31
+version=32
 release=1
 source=(http://downloads.sourceforge.net/sourceforge/${name}/${name}-${version}.tar.gz)
 

@@ -125,6 +125,7 @@ drwxr-xr-x	root/root	usr/include/ngspice/
 -rw-r--r--	root/root	usr/include/ngspice/twomesh.h
 -rw-r--r--	root/root	usr/include/ngspice/typedefs.h
 -rw-r--r--	root/root	usr/include/ngspice/wallace.h
+-rw-r--r--	root/root	usr/include/ngspice/wincolornames.h
 -rw-r--r--	root/root	usr/include/ngspice/wordlist.h
 -rw-r--r--	root/root	usr/include/ngspice/wstdio.h
 drwxr-xr-x	root/root	usr/lib/
