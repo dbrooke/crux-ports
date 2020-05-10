@@ -1,0 +1,15 @@
+# Description: packages for handling media devices
+# URL: https://linuxtv.org/wiki/index.php/V4l-utils
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+
+name=v4l-utils
+version=1.18.1
+release=1
+source=(https://linuxtv.org/downloads/${name}/${name}-${version}.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr --disable-nls
+	make
+	make -j1 install DESTDIR=$PKG
+}
