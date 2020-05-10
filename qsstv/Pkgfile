@@ -1,11 +1,11 @@
 # Description: receive and transmit SSTV and HAMDRM
 # URL: http://users.telenet.be/on4qz/qsstv
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: hamlib jasper qt5 fftw
+# Depends on: qt5 openjpeg2 pulseaudio fftw hamlib v4l-utils
 
 name=qsstv
-version=8.2.12
-release=2
+version=9.4.4
+release=1
 source=(http://users.telenet.be/on4qz/${name}/downloads/${name}_${version}.tar.gz)
 
 build() {

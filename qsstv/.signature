@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtImDak48tRXEcw9rt9ot3MAADUghzDBn/7BNJ8R4NHD1g9RzwqPbTp6MdBt8yURXI7YeGJhMRhNHWUzBYjM6/VgU=
-SHA256 (Pkgfile) = 40a2f13eedcf069ae78c7f3ccf08aa6291c4962c9f00700b85ffa2b678420e2b
-SHA256 (.footprint) = 42f36fe2bdeb6590113faba8ee2e8bbd3a0845d5f2862c1d0d6c0cb4f6a30cf7
-SHA256 (qsstv_8.2.12.tar.gz) = 3bb6cff072747981d387196780de4414f8766a5a620dc1629cb4ba4de1d3bc4d
+RWRPZlJ5BPZtIm/xyKq5cuJ4yoBUcDT7E3d4n//j7YTDeA8BXUlE5ej9/hXewCnJtuioKRApTCbe77PCGpXm7DU7k4VHmsgOJQk=
+SHA256 (Pkgfile) = a31f9e0afc9e27bec2b1439174dfe8764d3ea48eb11a5e532f9abd0b4cc4a582
+SHA256 (.footprint) = ccd1c59f98d1f974264a759fc4b08b6493081966e5d8fa09ab353dc3d5a7940e
+SHA256 (qsstv_9.4.4.tar.gz) = f1a3c2f5e97b2efc36893b36dda9a0852d7c51129436e586580c05e2b5e93039
