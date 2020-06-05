@@ -1,0 +1,23 @@
+drwxr-xr-x	root/root	lib/
+drwxr-xr-x	root/root	lib/udev/
+drwxr-xr-x	root/root	lib/udev/rules.d/
+-rw-r--r--	root/root	lib/udev/rules.d/90-libiio.rules
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/iio_adi_xflow_check
+-rwxr-xr-x	root/root	usr/bin/iio_attr
+-rwxr-xr-x	root/root	usr/bin/iio_genxml
+-rwxr-xr-x	root/root	usr/bin/iio_info
+-rwxr-xr-x	root/root	usr/bin/iio_readdev
+-rwxr-xr-x	root/root	usr/bin/iio_reg
+-rwxr-xr-x	root/root	usr/bin/iio_writedev
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/iio.h
+drwxr-xr-x	root/root	usr/lib64/
+lrwxrwxrwx	root/root	usr/lib64/libiio.so -> libiio.so.0
+lrwxrwxrwx	root/root	usr/lib64/libiio.so.0 -> libiio.so.0.19
+-rwxr-xr-x	root/root	usr/lib64/libiio.so.0.19
+drwxr-xr-x	root/root	usr/lib64/pkgconfig/
+-rw-r--r--	root/root	usr/lib64/pkgconfig/libiio.pc
+drwxr-xr-x	root/root	usr/sbin/
+-rwxr-xr-x	root/root	usr/sbin/iiod

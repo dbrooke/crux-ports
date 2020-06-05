@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtItoPeyGomofBto1kXhld8JMDrXoRI+fQw+uTnp5YP/jWpl37l1kaPECt7OvpWM/aWfLBthn7fd9nFZn3ihVSXgA=
+SHA256 (Pkgfile) = 0477cbf75d5d573cd7ea510635b83666997bdedca2b638529b12f016492a0a8a
+SHA256 (.footprint) = 895b1ffca3076a8ab89b42258cb37e4dec1a3e6a55b0320b6fc8b358266b694d
+SHA256 (libiio-v0.19.tar.gz) = 81c414d5c47b715d9bc9275b9fabbfd9e9483e60c035f3001b5977932049595d
