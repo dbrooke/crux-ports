@@ -1,0 +1,26 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/gtkdatabox.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_bars.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_cross_simple.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_graph.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_grid.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_lines.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_markers.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_marshal.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_offset_bars.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_points.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_regions.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_ruler.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_scale.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_typedefs.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_xyc_graph.h
+-rw-r--r--	root/root	usr/include/gtkdatabox_xyyc_graph.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libgtkdatabox-0.9.3.so.1 -> libgtkdatabox-0.9.3.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgtkdatabox-0.9.3.so.1.0.0
+-rw-r--r--	root/root	usr/lib/libgtkdatabox.a
+-rwxr-xr-x	root/root	usr/lib/libgtkdatabox.la
+lrwxrwxrwx	root/root	usr/lib/libgtkdatabox.so -> libgtkdatabox-0.9.3.so.1.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/gtkdatabox.pc

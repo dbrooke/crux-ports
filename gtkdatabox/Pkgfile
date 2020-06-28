@@ -1,0 +1,17 @@
+# Description: a widget for live display of large amounts of fluctuating numerical data
+# URL: https://sourceforge.net/projects/gtkdatabox/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: gtk
+
+name=gtkdatabox
+version=0.9.3.1
+release=1
+source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
+
+build()
+{
+  cd ${name}-${version}
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}
