@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/ad9361-wrapper.h
+-rw-r--r--	root/root	usr/include/ad9361.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libad9361.so -> libad9361.so.0
+lrwxrwxrwx	root/root	usr/lib/libad9361.so.0 -> libad9361.so.0.2
+-rwxr-xr-x	root/root	usr/lib/libad9361.so.0.2
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libad9361.pc

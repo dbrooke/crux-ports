@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIgMy+7sDX/MCxe60RK6pb4GDh4O7enskmgXpPrVLpWXDLEyyHIZhD1EySWwg+hYWx4yjQxaQW9kabQWDuPLUtA8=
+SHA256 (Pkgfile) = 6e77d0764066e8c9d065d7dde77abab66625339ee25eb389b517b5a9f54c4336
+SHA256 (.footprint) = dde8417e8b2263a751b88c1bb96685b06be6959223feb05a5454c11a5e43216e
+SHA256 (libad9361-iio-0.2.tar.gz) = f0d935eb7f70fde8596d98e9eb1f311b408b87662fc1fff45ae3ed455697b747

@@ -1,0 +1,20 @@
+# Description: manage AD9361 devices and create device specific FIR filters
+# URL: https://github.com/analogdevicesinc/libad9361-iio
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: libiio
+
+name=libad9361-iio
+version=0.2
+release=1
+source=(https://github.com/analogdevicesinc/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}
+
