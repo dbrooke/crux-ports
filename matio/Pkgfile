@@ -1,0 +1,16 @@
+# Description: a C library for reading and writing MATLAB MAT files
+# URL: https://sourceforge.net/projects/matio/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+
+name=matio
+version=1.5.17
+release=1
+source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
+
+build()
+{
+  cd ${name}-${version}
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}
