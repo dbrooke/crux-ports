@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/dbrooke.pub
+RWRPZlJ5BPZtIiwMVw+xT0zWY/bILPWvelRlp2zeJ5as14FNZsudtUyjFT1WODR0WTxt4ldRaBAc9D7FiDlTvT/h2xBkaNNKvQU=
+SHA256 (Pkgfile) = 4c3e8bf329b7deefefe24c8e8d268a65dc0ea23980e9afd2b53e7e6ba547ee22
+SHA256 (.footprint) = beff50710ee03536f4631d710ca9007008add0c5166ad25c7f39b81b011395fe
+SHA256 (iio-oscilloscope-0.11-master.tar.gz) = df31ae208f806f8291c3d4fd53d57d2e54acff4ab65c5ae52c18730fc76c6e64

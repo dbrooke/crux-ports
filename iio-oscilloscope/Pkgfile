@@ -1,0 +1,20 @@
+# Description: a GTK+ based oscilloscope application for interfacing with various IIO devices
+# URL: https://wiki.analog.com/resources/tools-software/linux-software/iio_oscilloscope
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: libad9361-iio matio gtkdatabox fftw jansson
+
+name=iio-oscilloscope
+version=0.11-master
+release=1
+source=(https://github.com/analogdevicesinc/${name}/archive/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+
+	mkdir build
+	cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}
+
