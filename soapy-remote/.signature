@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtItmnE+EWaSGjs4Cm/u83vpm3//wooqA8hMzBLdx7dBh53/ndAv+RA5cNk+PedJ7of0O13sUsZ30k3wQ0U3PX7QY=
-SHA256 (Pkgfile) = a916cbdd8a8c503c0670c3d8e64955df4f3e903581a3348d63e954dbdcea311d
+RWRPZlJ5BPZtItICrTpiLKZiw7y3m9YlWIfTbmnMBzne/EbzCUX9QdEnul1QPyFxR2wVTvYDwsfdfwfFIZ2QJ50uqxysVNm7owk=
+SHA256 (Pkgfile) = ff96565b312fdd0d93a31839ba0ecd92e159e6719d95f696efe2023b0dfb5137
 SHA256 (.footprint) = 0affe6387e72c1f3b1c0f1b290daca38e445ea8af5119425a398f7c968745222
-SHA256 (soapy-remote-0.5.1.tar.gz) = f325c5dde26fc8d7a82bd4e893b9aac445bb736679724728fc1dd2f0aef7b5f6
+SHA256 (soapy-remote-0.5.2.tar.gz) = 66a372d85c984e7279b4fdc0a7f5b0d7ba340e390bc4b8bd626a6523cd3c3c76

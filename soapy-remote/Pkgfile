@@ -4,7 +4,7 @@
 # Depends on: soapy-sdr
 
 name=soapy-remote
-version=0.5.1
+version=0.5.2
 release=1
 source=(https://github.com/pothosware/SoapyRemote/archive/${name}-${version}.tar.gz)
 
