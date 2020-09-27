@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtImoZGMGNgDzdkxY3J1YTLBmHk/2EVupE8J8+eoIn+bOcH8ZW19VXrzoBQKp8Np6o7lW0QelgecsGcmr7awe4KwA=
-SHA256 (Pkgfile) = cf88354af172a9d829e067e4251d4c4f6160fc84ef10d0b544b5531f6baea842
-SHA256 (.footprint) = 2b8a9a6b1517a8d0de90db4a79dfed1c95bc07729a82a858f5ddb1c818bc54d6
-SHA256 (qwt-6.1.4.tar.bz2) = 1529215329e51fc562e0009505a838f427919a18b362afff441f035b2d9b5bd9
+RWRPZlJ5BPZtIn4tPNWhF86FhGBLwW1KfjWIMcKm2bqLFC2jtfoipMCAM4fi4YfWvfG1oG5/BljpddMRVqErhyg+iq7byeJcSwM=
+SHA256 (Pkgfile) = 566cec8fad6548a741652f40b28b2fec15d844a583737c881a18544244a57fa7
+SHA256 (.footprint) = 3c3257efb9c017a542e2b4bd6c15293006cd99751a3aae481427b3abc69f9a8e
+SHA256 (qwt-6.1.5.tar.bz2) = 4076de63ec2b5e84379ddfebf27c7b29b8dc9074f3db7e2ca61d11a1d8adc041
