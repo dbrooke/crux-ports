@@ -5,11 +5,12 @@ drwxr-xr-x	root/root	etc/udev/rules.d/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/aclients
+-rwxr-xr-x	root/root	usr/bin/appserver
 -rwxr-xr-x	root/root	usr/bin/atest
 -rwxr-xr-x	root/root	usr/bin/cm108
 -rwxr-xr-x	root/root	usr/bin/decode_aprs
 -rwxr-xr-x	root/root	usr/bin/direwolf
--rwxr-xr-x	root/root	usr/bin/dwspeak.sh
+-rwxr-xr-x	root/root	usr/bin/dwespeak.sh
 -rwxr-xr-x	root/root	usr/bin/gen_packets
 -rwxr-xr-x	root/root	usr/bin/kissutil
 -rwxr-xr-x	root/root	usr/bin/ll2utm
@@ -31,8 +32,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/direwolf.desktop
 drwxr-xr-x	root/root	usr/share/direwolf/
-drwxr-xr-x	root/root	usr/share/direwolf/pixmaps/
--rw-r--r--	root/root	usr/share/direwolf/pixmaps/dw-icon.png
 -rw-r--r--	root/root	usr/share/direwolf/symbols-new.txt
 -rw-r--r--	root/root	usr/share/direwolf/symbolsX.txt
 -rw-r--r--	root/root	usr/share/direwolf/tocalls.txt
@@ -49,3 +48,5 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/text2tt.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/tt2text.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/utm2ll.1.gz
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/direwolf_icon.png

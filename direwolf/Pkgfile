@@ -1,18 +1,19 @@
 # Description: a software "soundcard" modem/TNC and APRS encoder/decoder
 # URL: https://github.com/wb2osz/direwolf
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: alsa-lib
+# Depends on: cmake alsa-lib
 
 name=direwolf
-version=1.5
+version=1.6
 release=1
 source=(https://github.com/wb2osz/${name}/archive/${version}/${name}-${version}.tar.gz)
 
 build()
 {
   cd $name-$version 
-  sed -i "s|\(/etc/udev/rules\.d/\)|${PKG}\1|" Makefile.linux
-  make
-  make DESTDIR=$PKG/usr install
+  mkdir builddir
+  cd builddir
+  cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+  make DESTDIR=$PKG install
   rm -r $PKG/usr/share/doc
 }
