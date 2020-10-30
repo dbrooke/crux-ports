@@ -1,0 +1,18 @@
+# Description: a high-performance, platform-neutral implementation of VNC
+# URL: https://tigervnc.org/
+# Maintainer: David Brooke, crux at dbrooke dot me dot uk
+# Depends on: fltk xorg-libxi
+
+name=tigervnc
+version=1.11.0
+release=1
+source=(https://github.com/TigerVNC/${name}/archive/v${version}/${name}-v${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	mkdir builddir
+	cd builddir
+	cmake -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_NLS=OFF -DINSTALL_SYSTEMD_UNITS=OFF -DCMAKE_INSTALL_LIBEXECDIR=/usr/lib/${name}  ..
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/doc/
+}
