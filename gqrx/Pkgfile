@@ -1,10 +1,10 @@
 # Description: software defined radio receiver
 # URL: http://gqrx.dk/
 # Maintainer: David Brooke, crux at dbrooke dot me dot uk
-# Depends on: gr-osmosdr qt5 pulseaudio
+# Depends on: gr-osmosdr pulseaudio
 
 name=gqrx
-version=2.13.2
+version=2.13.3
 release=1
 source=(https://github.com/csete/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
