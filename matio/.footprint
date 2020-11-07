@@ -7,9 +7,9 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libmatio.a
 -rwxr-xr-x	root/root	usr/lib/libmatio.la
-lrwxrwxrwx	root/root	usr/lib/libmatio.so -> libmatio.so.11.0.0
-lrwxrwxrwx	root/root	usr/lib/libmatio.so.11 -> libmatio.so.11.0.0
--rwxr-xr-x	root/root	usr/lib/libmatio.so.11.0.0
+lrwxrwxrwx	root/root	usr/lib/libmatio.so -> libmatio.so.11.0.1
+lrwxrwxrwx	root/root	usr/lib/libmatio.so.11 -> libmatio.so.11.0.1
+-rwxr-xr-x	root/root	usr/lib/libmatio.so.11.0.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/matio.pc
 drwxr-xr-x	root/root	usr/share/

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIu33jp4hDBirJSuKEWAfbzdyTg+9W+uS6tKyINrKg6JhZMAhpjpBjQt929cIt29y3EuZTC5MJTtq1P7gX/M8bA8=
-SHA256 (Pkgfile) = ef57329409aaa6899bed21b5cb3ef993a470b2ca96c871e5d4e440c09d4ff25f
-SHA256 (.footprint) = fac010bd23bfb00e3d908cc4d5bd1c4fdba09231550d2b345b0aaebe3a4c64b8
-SHA256 (matio-1.5.18.tar.gz) = 5fad71a63a854d821cc6f4e8c84da837149dd5fb57e1e2baeffd85fa0f28fe25
+RWRPZlJ5BPZtIiGNbbMQcyIpNfgRuCcqx9ALhJJ+lqysbCgr/7xQJus9BGk22NiU1cDPrFpN/nd4torU0TNtquBszLR0rffvGQk=
+SHA256 (Pkgfile) = dee2ee9350ceb8bd6b8abc541a0b5863fe3857db9a18c5272ea2d1737bdd337c
+SHA256 (.footprint) = 0452fa58dcfc3a4a4c503dcb7f786195711d71d14ac07f7fbac423d3a7365ab7
+SHA256 (matio-1.5.19.tar.gz) = a4fa4d248b0414fc72f3d6155f710c470d5628d3c31af834f8d5ccf06b60286f
