@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIsTXyb7TTKiR+BzaRGe4+9CgVfCraxPPvnQE3LzNa3VBZu8o6qks1wO4OZxt/KzizeM3+jLoXEurc+RgnM8iNwk=
-SHA256 (Pkgfile) = 1376a1ec8b72ac01e9cbc11d9811227ad72869c36ec9fba5896e95918a0130f3
+RWRPZlJ5BPZtIkWgSyGojRMcqxfezrGJjUNVnbxJ2M6KAJaJjEj6j2+ZzTZ1fGqbp/hwBBEnT6kOu8UpnK07kpd5O/b5cfHskwo=
+SHA256 (Pkgfile) = 75d4adabc3ae2995d351ce453d8c6c97ebda32798d0e519a0982b8408333af16
 SHA256 (.footprint) = 9d76c19ff8069057e1c75039e76211fbe7f9bbd6f4295ada592b3fff049706f8
-SHA256 (gqrx-2.13.3.tar.gz) = 347eece092f11dea2a21155156e923b184b28f6a383546593964932a5a68dd91
+SHA256 (gqrx-2.13.5.tar.gz) = 79287ba694a7d0506393d2c18cc02fc5c736d00119e0ad7fa1ebc67bbb1059c8
