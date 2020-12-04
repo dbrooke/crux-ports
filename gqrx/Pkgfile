@@ -4,7 +4,7 @@
 # Depends on: gr-osmosdr pulseaudio
 
 name=gqrx
-version=2.14
+version=2.14.2
 release=1
 source=(https://github.com/csete/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
