@@ -4,7 +4,7 @@
 # Depends on:
 
 name=hamlib
-version=3.3
+version=4.0
 release=1
 source=(http://downloads.sourceforge.net/project/${name}/${name}/${version}/${name}-${version}.tar.gz)
 
@@ -15,5 +15,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 	rm -r $PKG/usr/share/doc/
-	rm -r $PKG/usr/share/info/
+	#rm -r $PKG/usr/share/info/
 }

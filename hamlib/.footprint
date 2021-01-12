@@ -1,6 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/ampctl
+-rwxr-xr-x	root/root	usr/bin/ampctld
 -rwxr-xr-x	root/root	usr/bin/rigctl
+-rwxr-xr-x	root/root	usr/bin/rigctlcom
 -rwxr-xr-x	root/root	usr/bin/rigctld
 -rwxr-xr-x	root/root	usr/bin/rigmem
 -rwxr-xr-x	root/root	usr/bin/rigsmtr
@@ -9,6 +12,9 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/rotctld
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/hamlib/
+-rw-r--r--	root/root	usr/include/hamlib/ampclass.h
+-rw-r--r--	root/root	usr/include/hamlib/amplifier.h
+-rw-r--r--	root/root	usr/include/hamlib/amplist.h
 -rw-r--r--	root/root	usr/include/hamlib/rig.h
 -rw-r--r--	root/root	usr/include/hamlib/rig_dll.h
 -rw-r--r--	root/root	usr/include/hamlib/rigclass.h
@@ -19,14 +25,14 @@ drwxr-xr-x	root/root	usr/include/hamlib/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libhamlib++.a
 -rwxr-xr-x	root/root	usr/lib/libhamlib++.la
-lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.2.1.3
-lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.2 -> libhamlib++.so.2.1.3
--rwxr-xr-x	root/root	usr/lib/libhamlib++.so.2.1.3
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.4 -> libhamlib++.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libhamlib++.so.4.0.0
 -rw-r--r--	root/root	usr/lib/libhamlib.a
 -rwxr-xr-x	root/root	usr/lib/libhamlib.la
-lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.2.1.3
-lrwxrwxrwx	root/root	usr/lib/libhamlib.so.2 -> libhamlib.so.2.1.3
--rwxr-xr-x	root/root	usr/lib/libhamlib.so.2.1.3
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so.4 -> libhamlib.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libhamlib.so.4.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/hamlib.pc
 drwxr-xr-x	root/root	usr/share/
@@ -34,7 +40,10 @@ drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/hamlib.m4
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/ampctl.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/ampctld.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/rigctl.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/rigctlcom.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/rigctld.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/rigmem.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/rigsmtr.1.gz
