@@ -251,10 +251,10 @@ drwxr-xr-x	root/root	usr/qwt/include/
 -rw-r--r--	root/root	usr/qwt/include/qwt_wheel.h
 -rw-r--r--	root/root	usr/qwt/include/qwt_widget_overlay.h
 drwxr-xr-x	root/root	usr/qwt/lib/
-lrwxrwxrwx	root/root	usr/qwt/lib/libqwt.so -> libqwt.so.6.1.5
-lrwxrwxrwx	root/root	usr/qwt/lib/libqwt.so.6 -> libqwt.so.6.1.5
-lrwxrwxrwx	root/root	usr/qwt/lib/libqwt.so.6.1 -> libqwt.so.6.1.5
--rwxr-xr-x	root/root	usr/qwt/lib/libqwt.so.6.1.5
+lrwxrwxrwx	root/root	usr/qwt/lib/libqwt.so -> libqwt.so.6.1.6
+lrwxrwxrwx	root/root	usr/qwt/lib/libqwt.so.6 -> libqwt.so.6.1.6
+lrwxrwxrwx	root/root	usr/qwt/lib/libqwt.so.6.1 -> libqwt.so.6.1.6
+-rwxr-xr-x	root/root	usr/qwt/lib/libqwt.so.6.1.6
 drwxr-xr-x	root/root	usr/qwt/plugins/
 drwxr-xr-x	root/root	usr/qwt/plugins/designer/
 -rwxr-xr-x	root/root	usr/qwt/plugins/designer/libqwt_designer_plugin.so
