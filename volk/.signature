@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/dbrooke.pub
-RWRPZlJ5BPZtIu/eVwZFrztEVjPnW+QoTcC0DT5q8fVyq8Nam2t5287RFltXkB2Ac2VWWi+yXV5OSbMF1EeQs3oHJkMztmIS8wA=
-SHA256 (Pkgfile) = 99b15cf6645cd8f88bb3b61a2f2c1e2e67e187a04b62a8a29a805e7b20aabf38
-SHA256 (.footprint) = fb55c3482e9dc6ae26e497dcbcc051b0e89071633165054b146e28ceb263170a
-SHA256 (volk-2.3.0.tar.xz) = 40645886d713ed23295d7fb3e69734b5173a22259886b1a4abdad229a44123b9
+RWRPZlJ5BPZtIkQzap0IrXHhwmhrSG+oxfhPaTmn4vWHY2wqIaYgFJZEajsORgf5S190ws4zRoT9fbTp4lXjg0pPRFsc8Qs6vg0=
+SHA256 (Pkgfile) = 5ccfa0c5ace6fa9d02303b8ca01a751f8f1e4535b2a86455dfb60e3efdc3bd66
+SHA256 (.footprint) = 3459b6a73cc01ae3da0b25ffc7857fb431055affcdb4c0143206e9801718b9fd
+SHA256 (volk-2.4.1.tar.xz) = 1fabeea2a6332bb58370b46fc0d7164aa6625c9fb50a5f65fc7cf8832990cbf5
