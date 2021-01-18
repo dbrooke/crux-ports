@@ -4,7 +4,7 @@
 # Depends on: libad9361-iio matio gtkdatabox fftw jansson
 
 name=iio-oscilloscope
-version=0.11-master
+version=0.13-master
 release=1
 source=(https://github.com/analogdevicesinc/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
