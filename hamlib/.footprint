@@ -25,14 +25,14 @@ drwxr-xr-x	root/root	usr/include/hamlib/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libhamlib++.a
 -rwxr-xr-x	root/root	usr/lib/libhamlib++.la
-lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.4.0.0
-lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.4 -> libhamlib++.so.4.0.0
--rwxr-xr-x	root/root	usr/lib/libhamlib++.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so -> libhamlib++.so.4.0.1
+lrwxrwxrwx	root/root	usr/lib/libhamlib++.so.4 -> libhamlib++.so.4.0.1
+-rwxr-xr-x	root/root	usr/lib/libhamlib++.so.4.0.1
 -rw-r--r--	root/root	usr/lib/libhamlib.a
 -rwxr-xr-x	root/root	usr/lib/libhamlib.la
-lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.4.0.0
-lrwxrwxrwx	root/root	usr/lib/libhamlib.so.4 -> libhamlib.so.4.0.0
--rwxr-xr-x	root/root	usr/lib/libhamlib.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so -> libhamlib.so.4.0.1
+lrwxrwxrwx	root/root	usr/lib/libhamlib.so.4 -> libhamlib.so.4.0.1
+-rwxr-xr-x	root/root	usr/lib/libhamlib.so.4.0.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/hamlib.pc
 drwxr-xr-x	root/root	usr/share/
