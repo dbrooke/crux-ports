@@ -1,5 +1,9 @@
 # crux-ports
 
+**Note: This repository is no longer maintained.**
+
+---
+
 [CRUX](https://crux.nu/) is a lightweight Linux distribution for the x86-64
 architecture targeted at experienced Linux users.
 
